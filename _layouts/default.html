@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="de-de">
+{% include head.html %}
+
+<body>
+	<header>
+		<div class="header-mobile">
+			<!--    Made by Erik Terwan    -->
+			<!--   24th of November 2015   -->
+			<!--    All rights reserved    -->
+			<nav role="navigation">
+				<div id="menuToggle">
+					<!--
+					A fake / hidden checkbox is used as click reciever,
+					so you can use the :checked selector on it.
+					-->
+					<input type="checkbox" />
+
+					<!--
+					Some spans to act as a hamburger.
+
+					They are acting like a real hamburger,
+					not that McDonalds stuff.
+					-->
+					<span></span>
+					<span></span>
+					<span></span>
+
+					<!--
+					Too bad the menu has to be inside of the button
+					but hey, it's pure CSS magic.
+					-->
+					<!--<ul id="menu">-->
+					<!--<a href="#"><li>Home</li></a>-->
+					<!--<a href="#"><li>About</li></a>-->
+					<!--<a href="#"><li>Info</li></a>-->
+					<!--<a href="#"><li>Contact</li></a>-->
+					<!--<a href="https://erikterwan.com/" target="_blank"><li>Show me more</li></a>-->
+					<!--</ul>-->
+					<ul id="menu">
+						{% assign chapters = site.chapters | where: "type", "chapter" | sort: "chapter" %}
+						{% for chapter in chapters %}
+						<li>
+							<p class="toc-chapter"><a href="#{{chapter.chapter}}-{{chapter.title}}">{{chapter.chapter}} {{chapter.title}}</a></p>
+							{% assign sections = site.chapters | where: "type", "section" | where: "chapter", chapter.chapter | sort: "section" %}
+							<ul class="toc-section-list">
+								{% for section in sections%}
+								<li>
+									<p><a href="#{{chapter.chapter}}-{{section.section}}-{{section.title}}">{{chapter.chapter}}.{{section.section}} {{section.title}}</a></p>
+									{% assign subsections = site.chapters | where: "type", "subsection" | where: "chapter", chapter.chapter | where: "section", section.section | sort: "subsection" %}
+									<ul class="toc-subsection-list">
+										{% for subsection in subsections %}
+										<li><a href="#{{chapter.chapter}}-{{section.section}}-{{subsection.subsection}}-{{subsection.title}}">{{chapter.chapter}}.{{section.section}}.{{subsection.subsection}} {{subsection.title}}</li>
+										{% endfor %}
+									</ul>
+								</li>
+								{% endfor %}
+							</ul>
+						</li>
+						{% endfor %}
+					</ul>
+				</div>
+			</nav>
+		</div>
+		<div class="header">
+			<div class="header-picture">
+				<!--<img src="/images/group-2@3x.png" alt="">-->
+				<div class="header-text">
+					<h1 class="text-center">Handbuch für die Durchführung netzpolitischer Workshops</h1>
+					<p class="text-center">Ein Leitfaden für Mitarbeiterinnen von Jugendeinrichtungen erstellt vom Team der Demokratielabore</p>
+					<p class="text-center">CC-BY 4.0</p>
+				</div>
+			</div>
+
+		</div>
+	</header>
+		{{ content }}
+	<script src="/js/stickyfill.js"></script>
+	<script src="/js/stickybits.js"></script>
+	<script src="/js/main.js"></script>
+	<script type="text/javascript" src="/js/sticky-sidebar.js"></script>
+
+	<script type="text/javascript">
+		var sidebar = new StickySidebar('.toc', {
+			topSpacing: 20,
+			bottomSpacing: 20,
+			containerSelector: '.container',
+			innerWrapperSelector: '.sidebar__inner'
+		});
+	</script>
+</body>
+</html>

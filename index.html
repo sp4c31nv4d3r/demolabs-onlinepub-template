@@ -1,0 +1,88 @@
+---
+layout: default
+---
+<div class="container">
+	{% include toc.html %}
+	<div class="main-content">
+		{% assign chapters = site.chapters | where: "type", "chapter" | sort: "chapter" %}
+		{% for chapter in chapters %}
+		<h1 id="{{chapter.chapter}}-{{chapter.title}}">{{chapter.chapter}} {{chapter.title}}</h1>
+		<p>{{chapter.content}}</p>
+		{% assign sections = site.chapters | where: "type", "section" | where: "chapter", chapter.chapter | sort: "section" %}
+		{% for section in sections%}
+		<h2 id="{{chapter.chapter}}-{{section.section}}-{{section.title}}">{{chapter.chapter}}.{{section.section}} {{section.title}}</h2>
+		<p>{{section.content}}</p>
+		{% assign subsections = site.chapters | where: "type", "subsection" | where: "chapter", chapter.chapter | where: "section", section.section | sort: "subsection" %}
+		{% for subsection in subsections %}
+		<h3 id="{{chapter.chapter}}-{{section.section}}-{{subsection.subsection}}-{{subsection.title}}">{{chapter.chapter}}.{{section.section}}.{{subsection.subsection}} {{subsection.title}}</h3>
+		<p>{{subsection.content}}</p>
+		{% endfor %}
+		{% endfor %}
+		{% endfor %}
+	</div>
+</div>
+
+<!--[CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) Paula Glaser, Maria Reimer, Daniel Seitz für [OKF DE](http://www.okfn.de) und [mediale pfade.org](http://www.medialepfade.org). Grafik: [glashaus4](http://glashaus4.de/). Webdesign: [rhotep](https://github.com/rhotep). Lektorat: Robert Behrendt.-->
+
+<!--Gefördert durch die Jugend- und Familienstiftung des Landes Berlin im Rahmen des Jugend-Demokratiefonds Berlin. Diese Förderung bedeutet nicht zwangsläufig, dass die Stiftung den Ergebnissen und Aussagen des Textes zustimmt.-->
+
+<!--[Hier](https://github.com/Jugendhackt/Handbuch-Jugend-Hackathons/) geht es zum GitHub-Repository des Handbuchs.-->
+<!--<div class="main-content">-->
+<!--<div class="sidebar">-->
+<!--<div class="sidebar__inner">-->
+<!--<ul>-->
+<!--<li>1</li>-->
+<!--<li>2</li>-->
+<!--<li>3</li>-->
+<!--<li>4</li>-->
+<!--<li>5</li>-->
+<!--</ul>-->
+<!--</div>-->
+<!--</div>-->
+<!--<div class="content">-->
+<!--Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ad asperiores consequuntur delectus dolor dolore doloremque ducimus error esse et eveniet hic in ipsam ipsum iusto laboriosam magnam, magni natus neque nesciunt nulla obcaecati placeat porro quas, quia quidem recusandae sunt velit veniam veritatis. Eaque facilis pariatur quam veritatis voluptate voluptatem. Dolore eius eligendi facere facilis, fugit illum laboriosam magni, nemo obcaecati perspiciatis possimus quaerat suscipit velit veniam vitae? Quidem repudiandae tempora ut! Animi atque, aut dolorem dolorum ducimus eius eligendi et explicabo ipsam iste iure iusto libero maxime, nam neque nesciunt, nihil nisi quas quis sapiente vel voluptate voluptatibus.-->
+<!--</div>-->
+<!--</div>-->
+
+
+
+<!--<div class="container" style="position: relative;">-->
+	<!--<div id="sidebar">-->
+		<!--<div class="sidebar__inner">-->
+			<!--<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tempus id leo et aliquam. Proin consectetur ligula vel neque cursus laoreet. </p>-->
+
+			<!--<p>Nullam dignissim, augue at consectetur pellentesque, metus ipsum interdum sapien, quis ornare quam enim vel ipsum.</p>-->
+
+			<!--<p>In congue nunc vitae magna tempor ultrices. Cras ultricies posuere elit. Nullam ultrices purus ante, at mattis leo placerat ac. Nunc faucibus ligula nec lorem sodales venenatis.</p>-->
+
+			<!--<p>Curabitur nec est condimentum, blandit tellus nec, semper arcu. Nullam in porta ipsum, non consectetur mi. Sed pharetra sapien nisl. Aliquam ac lectus sed elit vehicula scelerisque ut vel sem. Ut ut semper nisl.</p>-->
+
+			<!--<p>Curabitur rhoncus, arcu at placerat volutpat, felis elit sollicitudin ante, sed tempus justo nibh sed massa. Integer vestibulum non ante ornare eleifend. In vel mollis dolor.</p>-->
+			<!--<div class="resize-sensor" style="position: absolute; left: 0px; top: 0px; right: 0px; bottom: 0px; overflow: hidden; z-index: -1; visibility: hidden;">-->
+				<!--<div class="resize-sensor-expand" style="position: absolute; left: 0; top: 0; right: 0; bottom: 0; overflow: hidden; z-index: -1; visibility: hidden;">-->
+					<!--<div style="position: absolute; left: 0px; top: 0px; transition: 0s; width: 100000px; height: 100000px;"></div>-->
+				<!--</div>-->
+				<!--<div class="resize-sensor-shrink" style="position: absolute; left: 0; top: 0; right: 0; bottom: 0; overflow: hidden; z-index: -1; visibility: hidden;">-->
+					<!--<div style="position: absolute; left: 0; top: 0; transition: 0s; width: 200%; height: 200%"></div>-->
+				<!--</div>-->
+			<!--</div>-->
+		<!--</div>-->
+	<!--</div>-->
+	<!--<div id="content">-->
+		<!--<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tempus id leo et aliquam. Proin consectetur ligula vel neque cursus laoreet. Nullam dignissim, augue at consectetur pellentesque, metus ipsum interdum sapien, quis-->
+			<!--ornare quam enim vel ipsum.</p>-->
+
+		<!--<p>In congue nunc vitae magna tempor ultrices. Cras ultricies posuere elit. Nullam ultrices purus ante, at mattis leo placerat ac. Nunc faucibus ligula nec lorem sodales venenatis. Curabitur nec est condimentum, blandit tellus nec,-->
+			<!--semper arcu. Nullam in porta ipsum, non consectetur mi. Sed pharetra sapien nisl. Aliquam ac lectus sed elit vehicula scelerisque ut vel sem. Ut ut semper nisl.</p>-->
+
+		<!--<p>Curabitur rhoncus, arcu at placerat volutpat, felis elit sollicitudin ante, sed tempus justo nibh sed massa. Integer vestibulum non ante ornare eleifend. In vel mollis dolor.</p>-->
+	<!--</div>-->
+	<!--<div class="resize-sensor" style="position: absolute; left: 0px; top: 0px; right: 0px; bottom: 0px; overflow: hidden; z-index: -1; visibility: hidden;">-->
+		<!--<div class="resize-sensor-expand" style="position: absolute; left: 0; top: 0; right: 0; bottom: 0; overflow: hidden; z-index: -1; visibility: hidden;">-->
+			<!--<div style="position: absolute; left: 0px; top: 0px; transition: 0s; width: 100000px; height: 100000px;"></div>-->
+		<!--</div>-->
+		<!--<div class="resize-sensor-shrink" style="position: absolute; left: 0; top: 0; right: 0; bottom: 0; overflow: hidden; z-index: -1; visibility: hidden;">-->
+			<!--<div style="position: absolute; left: 0; top: 0; transition: 0s; width: 200%; height: 200%"></div>-->
+		<!--</div>-->
+	<!--</div>-->
+<!--</div>-->

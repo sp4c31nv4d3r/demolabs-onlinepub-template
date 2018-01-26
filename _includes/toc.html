@@ -1,74 +1,46 @@
-<ul id ="toc" ng-click	= "toggleTOC()">
-
-	{% capture cache %}
-		{% assign A1 = "" | split: "" %}
-		{% assign A2 = "" | split: "" | push: 0 %}
-		{% assign A3 = "" | split: "" | push: 0 %}
-		{% assign A4 = "" | split: "" | push: 0 %}
-		{% for chapter in site.chapters %}
-				{% assign numbers =  chapter.number | split: "." %}
-				{% assign size = numbers | size %}
-				{% if size > 0 %} 
-					{% assign n = numbers[0] | times: 1 %}
-					{% assign A1 = A1 | push: n %} 
-				{% endif %}
-				{% if size > 1 %} 
-					{% assign n = numbers[1] | times: 1 %}
-					{% assign A2 = A2 | push: n %} 
-				{% endif %}
-				{% if size > 2 %} 
-					{% assign n = numbers[2] | times: 1 %}
-					{% assign A3 = A3 | push: n %} 
-				{% endif %}
-				{% if size > 3 %} 
-					{% assign n = numbers[3] | times: 1 %}
-					{% assign A4 = A4 | push: n %} 
-				{% endif %}
-		{% endfor %}
-		{% assign A1 = A1 | uniq | sort %}
-		{% assign A2 = A2 | uniq | sort %}
-		{% assign A3 = A3 | uniq | sort %}
-		{% assign A4 = A4 | uniq | sort %}
-		{% assign sorted_chapters = "" | split: "" %}
-		{% for x in A1 %}
-			{% for y in A2 %}
-				{% for z in A3 %}
-					{% for v in A4 %}
-						{% assign chapter_number = "" | append: x %}
-							{% if y != 0 %}
-								{% assign chapter_number = chapter_number | append: "."| append: y %}
-								{% if z != 0 %}
-									{% assign chapter_number = chapter_number | append: "." | append: z %}
-									{% if v != 0 %}
-										{% assign chapter_number = chapter_number | append: "." | append: v %}
-									{% endif %}
-								{% endif %}
-							{% endif %}
-						{% assign matching_chapters = site.chapters | where: "number", chapter_number %}
-						{% for chapter in matching_chapters | sort: "type" %}
-							{% assign sorted_chapters = sorted_chapters | push: chapter %}						
-						{% endfor %}
-						{% if z == 0 %} {% break %} {% endif %}
-					{% endfor %}
-					{% if y == 0 %} {% break %} {% endif %}
-				{% endfor %}
+<div class="toc">
+	<div class="toc__inner">
+		<div class="sidebar__inner">
+			<h1>Inhalt</h1>
+			<ul>
+			{% assign chapters = site.chapters | where: "type", "chapter" | sort: "chapter" %}
+			{% for chapter in chapters %}
+			<li>
+			<p class="toc-chapter"><a href="#{{chapter.chapter}}-{{chapter.title}}">{{chapter.chapter}} {{chapter.title}}</a></p>
+			{% assign sections = site.chapters | where: "type", "section" | where: "chapter", chapter.chapter | sort: "section" %}
+			<ul class="toc-section-list">
+			{% for section in sections%}
+			<li>
+			<p><a href="#{{chapter.chapter}}-{{section.section}}-{{section.title}}">{{chapter.chapter}}.{{section.section}} {{section.title}}</a></p>
+			{% assign subsections = site.chapters | where: "type", "subsection" | where: "chapter", chapter.chapter | where: "section", section.section | sort: "subsection" %}
+			<ul class="toc-subsection-list">
+			{% for subsection in subsections %}
+			<li><a href="#{{chapter.chapter}}-{{section.section}}-{{subsection.subsection}}-{{subsection.title}}">{{chapter.chapter}}.{{section.section}}.{{subsection.subsection}} {{subsection.title}}</li>
 			{% endfor %}
-		{% endfor %} 
-		{% assign chapters = sorted_chapters %}
-	{% endcapture %}{% assign cache = nil %}
-	
-	{% for chapter in chapters %}
-			{% assign number_arr = chapter.number | split: "." %}
-			{% if chapter.type != 'excursion' %}
-				<li class = "chapter-{{number_arr | first}} depth-{{number_arr | size}}">
-					<a href ="#chapter-{{chapter.number}}">
-						<span class = "chapter-number">
-							{% for digit in number_arr %}<span class ="digit">{{ digit }}{% if forloop.last != true %}.{% endif %}</span>{% endfor %}
-						</span>
-						<span class = "chapter-title">	{{chapter.title | markdownify}}	</span>
-					</a>
-				</li>
-			{% endif %}
-	{% endfor %}
-</ul>
+			</ul>
+			</li>
+			{% endfor %}
+			</ul>
+			</li>
+			{% endfor %}
+			</ul>
+			<!--<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tempus id leo et aliquam. Proin consectetur ligula vel neque cursus laoreet. </p>-->
 
+			<!--<p>Nullam dignissim, augue at consectetur pellentesque, metus ipsum interdum sapien, quis ornare quam enim vel ipsum.</p>-->
+
+			<!--<p>In congue nunc vitae magna tempor ultrices. Cras ultricies posuere elit. Nullam ultrices purus ante, at mattis leo placerat ac. Nunc faucibus ligula nec lorem sodales venenatis.</p>-->
+
+			<!--<p>Curabitur nec est condimentum, blandit tellus nec, semper arcu. Nullam in porta ipsum, non consectetur mi. Sed pharetra sapien nisl. Aliquam ac lectus sed elit vehicula scelerisque ut vel sem. Ut ut semper nisl.</p>-->
+
+			<!--<p>Curabitur rhoncus, arcu at placerat volutpat, felis elit sollicitudin ante, sed tempus justo nibh sed massa. Integer vestibulum non ante ornare eleifend. In vel mollis dolor.</p>-->
+			<div class="resize-sensor" style="position: absolute; left: 0px; top: 0px; right: 0px; bottom: 0px; overflow: hidden; z-index: -1; visibility: hidden;">
+				<div class="resize-sensor-expand" style="position: absolute; left: 0; top: 0; right: 0; bottom: 0; overflow: hidden; z-index: -1; visibility: hidden;">
+					<div style="position: absolute; left: 0px; top: 0px; transition: 0s; width: 100000px; height: 100000px;"></div>
+				</div>
+				<div class="resize-sensor-shrink" style="position: absolute; left: 0; top: 0; right: 0; bottom: 0; overflow: hidden; z-index: -1; visibility: hidden;">
+					<div style="position: absolute; left: 0; top: 0; transition: 0s; width: 200%; height: 200%"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
