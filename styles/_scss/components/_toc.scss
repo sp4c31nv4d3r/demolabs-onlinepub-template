@@ -1,0 +1,39 @@
+p.toc-chapter {
+  color: #5e2ad0;
+  font-weight: bold;
+}
+
+p.toc-chapter a, p.toc-chapter a:hover, p.toc-chapter a:active, p.toc-chapter a:visited {
+  color: #5e2ad0;
+}
+
+.toc-section-list {
+  margin-left: 2em;
+}
+
+.toc-section-list a, .toc-section-list a:hover, .toc-section-list a:active, .toc-section-list a:visited {
+  color: black;
+}
+
+.toc-subsection-list {
+  margin-left: 2em;
+}
+
+.toc{
+  float: right;
+  color: black;
+  will-change: min-height;
+}
+
+.sidebar__inner{
+
+  width: 20em;
+  /*margin-right: 40px;*/
+  /*top: 0;*/
+  border-left: 1px solid #dedede;
+  padding: 10px;
+  /*position: relative;*/
+  transform: translate(0, 0);
+  transform: translate3d(0, 0, 0);
+  will-change: position, transform;
+}

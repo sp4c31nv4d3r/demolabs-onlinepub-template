@@ -1,0 +1,47 @@
+header{
+  color: #888;
+}
+
+header h1{
+  font-size: 32px;
+}
+
+header {
+  margin-bottom: 40px;
+}
+
+.main-content li {
+  list-style: disc;
+  margin-left: 20px;
+}
+
+.header {
+  background-image: linear-gradient(131deg, #0085fb, #00f2d8);
+  color: white;
+  min-height: 20rem;
+  overflow: hidden;
+  display: flex;
+}
+
+.header-picture {
+  background-image: url("/images/group-2@3x.png ");
+  background-size: cover;
+  width:100%;
+}
+
+.header-mobile {
+  display: none;
+}
+
+.header-text {
+  margin: auto;
+  width: 70%;
+}
+
+.header img {
+  width: 100%;
+  background-size: cover;
+  position: absolute;
+  overflow: hidden;
+  height: 20em; /*  TODO: Fix background image */
+}

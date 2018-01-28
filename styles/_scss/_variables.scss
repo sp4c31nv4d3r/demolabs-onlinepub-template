@@ -1,0 +1,80 @@
+
+// Colors
+
+$teal:	#006e83;
+
+$blue-deep:	#00b9cb;
+$blue-medium: #91e3f2;
+$blue-light: #c7eaf1;
+
+$orange-deep: #f97134;
+$orange-medium:	#f6c6a9;
+$orange-light: #f4e9df;
+
+// Padding
+$base-padding: 1.25em;
+$base-padding-lite: $base-padding / 3;
+$base-padding-large: 1.875em;
+$base-padding-extra: 3.525em;
+$base-padding-jumbo: 3.8em;
+
+// Typography
+$base-font-family: 'Work Sans', 'Helvetica Neue', Helvetica, arial, sans-serif;
+$base-font-weight: 400;
+$base-font-size: 1rem;
+$base-font-multiplier: 1;
+$base-line-height: 1.375rem;
+
+/* breakpoints */
+// Breakpoints
+
+$tiny: 480em;
+$small: 600em;
+$medium: 768em;
+$large: 990em;
+$huge: 1024em;
+$huge-plus: $huge + $base-padding;
+$jumbo: 150em;
+$massive: 1800em;
+
+//$tiny-down: new-breakpoint(max-width $tiny);
+//$tiny-up: new-breakpoint(min-width $tiny);
+//$small-down: new-breakpoint(max-width $small);
+//$small-up: new-breakpoint(min-width $small);
+//$medium-up: new-breakpoint(min-width $medium);
+//$large-up: new-breakpoint(min-width $large);
+//$huge-up: new-breakpoint(min-width $huge);
+//$jumbo-up: new-breakpoint(min-width $jumbo);
+//$massive-up: new-breakpoint(min-width $massive);
+
+@mixin respond-to($media) {
+  @if $media == tiny-down {
+    @media only screen and (max-width: $tiny) { @content; }
+  } @else if $media == tiny-up {
+    @media only screen and (min-width: $tiny) { @content; }
+  } @else if $media == small-up {
+    @media only screen and (min-width: $small) { @content; }
+  } @else if $media == small-to-large {
+    @media only screen and (min-width: $small) and (max-width: $large) { @content; }
+  } @else if $media == medium-down {
+    @media only screen and (max-width: $medium) { @content; }
+  } @else if $media == medium-up {
+    @media only screen and (min-width: $medium) { @content; }
+  } @else if $media == medium-to-huge-plus {
+    @media only screen and (min-width: $medium) and (max-width: $huge-plus) { @content; }
+  } @else if $media == large-up {
+    @media only screen and (min-width: $large) { @content; }
+  } @else if $media == huge-down {
+    @media only screen and (max-width: $huge) { @content; }
+  } @else if $media == huge-up {
+    @media only screen and (min-width: $huge) { @content; }
+  } @else if $media == huge-plus {
+    @media only screen and (min-width: $huge) and (max-width: $huge-plus) { @content; }
+  } @else if $media == huge-plus-up {
+    @media only screen and (min-width: $huge-plus) { @content; }
+  } @else if $media == jumbo-up {
+    @media only screen and (min-width: $jumbo) { @content; }
+  } @else if $media == massive-up {
+    @media only screen and (min-width: $massive) { @content; }
+  }
+}

@@ -1,3 +1,24 @@
+markdown: rdiscount
+highlighter: pygments
+
+exclude:
+  - "CNAME"
+  - "LICENSE"
+  - "browserlist"
+  - "Gemfile*"
+  - "Readme.md"
+  - "*.sh"
+  - ".idea/"
+  - ".git/"
+  - "local/"
+  - "scripts/"
+  - "_site/"
+  - "vendor/"
+
+sass:
+  sass_dir: styles/_scss
+  style: compressed
+
 collections:
     chapters:
         output: true
