@@ -1,28 +1,33 @@
 .main-content {
   font-family: $base-font-family;
   color: $main-color;
-  margin: 0 10%;
+  margin: 0 5%;
   position: relative;
   width: 50%;
 
   h1 {
-    font-family: 'pinto', 'sans-serif';
-    font-size: 2.5rem;
-    color: $violet;
-    margin: 1.75rem 0rem 0.5rem 0rem;
+    font-family: $base-font-family;
+    font-size: 2.2rem;
+    line-height: 2.5rem;
+    font-weight: 600;
+    color: $blue;
+    margin: 1.75rem 0rem 0rem 0rem;
   }
 
   h2 {
-    font-family: 'pinto', 'sans-serif';
-    font-size: 1.7rem;
+    font-family: $base-font-family;
+    font-size: 1.7rem;    
+    line-height: 2rem;
+    font-weight: 600;
     color: $blue;
     margin: 1.75rem 0rem 0.5rem 0rem;
 
   }
 
   h3 {
-    font-family: 'pinto', 'sans-serif';
+    font-family: $base-font-family;
     font-size: 1.5rem;
+    font-weight: 600;
     color: $blue;
     margin: 1.75rem 0rem 0.5rem 0rem;
   }

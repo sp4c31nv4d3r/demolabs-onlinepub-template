@@ -16,9 +16,10 @@ header {
 }
 
 .header {
-  background-image: linear-gradient(131deg, #0085fb, #00f2d8);
+  //background-image: linear-gradient(131deg, #0085fb, #00f2d8);
+  background-color: $grey-bright;
   color: white;
-  min-height: 20rem;
+  min-height: 30rem;
   overflow: hidden;
   display: flex;
 }

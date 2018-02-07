@@ -26,18 +26,24 @@ p {
 }
 
 .toc-entry-number {
-  font-family: 'pinto', 'sans-serif';
+  font-family: $base-font-family;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  font-weight: 600;
   float: left;
 }
 
 .toc-entry-title {
+  font-weight: 600;
+  font-size: 0.75rem;
+  line-height: 1rem;
   margin-left: 2rem;
   display: block;  
-  font-family: 'pinto', 'sans-serif';
+  font-family: $base-font-family;
 }
 
 .sidebar__inner {
-  font-family: 'pinto', 'sans-serif';
+  font-family: $base-font-family;
   width: 20em;
   /*margin-right: 40px;*/
   /*top: 0;*/
