@@ -1,4 +1,6 @@
 .main-content {
+  font-family: $base-font-family;
+  color: $main-color;
   margin: 0 10%;
   position: relative;
   width: 50%;
@@ -7,18 +9,22 @@
     font-family: 'pinto', 'sans-serif';
     font-size: 2.5rem;
     color: $violet;
+    margin: 1.75rem 0rem 0.5rem 0rem;
   }
 
   h2 {
     font-family: 'pinto', 'sans-serif';
     font-size: 1.7rem;
     color: $blue;
+    margin: 1.75rem 0rem 0.5rem 0rem;
+
   }
 
   h3 {
     font-family: 'pinto', 'sans-serif';
     font-size: 1.5rem;
     color: $blue;
+    margin: 1.75rem 0rem 0.5rem 0rem;
   }
 }
 

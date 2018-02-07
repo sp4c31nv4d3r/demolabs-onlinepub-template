@@ -1,6 +1,8 @@
 p.toc-chapter {
   color: #5e2ad0;
   font-weight: bold;
+  font-family: 'pinto', 'sans-serif';
+
 }
 
 p.toc-chapter a, p.toc-chapter a:hover, p.toc-chapter a:active, p.toc-chapter a:visited {
@@ -8,12 +10,12 @@ p.toc-chapter a, p.toc-chapter a:hover, p.toc-chapter a:active, p.toc-chapter a:
 }
 
 .toc-section-list a, .toc-section-list a:hover, .toc-section-list a:active, .toc-section-list a:visited {
-  color: black;
+  color: $grey-dark;
 }
 
 .toc {
   float: right;
-  color: black;
+  color: $grey-dark;
   will-change: min-height;
   margin-right: 20px;
 }
@@ -24,16 +26,18 @@ p {
 }
 
 .toc-entry-number {
+  font-family: 'pinto', 'sans-serif';
   float: left;
 }
 
 .toc-entry-title {
-  margin-left: 3.5rem;
-  display: block;
+  margin-left: 2rem;
+  display: block;  
+  font-family: 'pinto', 'sans-serif';
 }
 
 .sidebar__inner {
-
+  font-family: 'pinto', 'sans-serif';
   width: 20em;
   /*margin-right: 40px;*/
   /*top: 0;*/

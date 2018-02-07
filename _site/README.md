@@ -5,3 +5,5 @@ Gefördert durch die Jugend- und Familienstiftung des Landes Berlin im Rahmen de
 
 [Hier](https://jugendhackt.github.io/Handbuch-Jugend-Hackathons) geht es zur Webseite des Handbuchs.
 
+./serve.sh
+
