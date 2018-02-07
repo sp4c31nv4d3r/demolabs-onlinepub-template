@@ -9,21 +9,18 @@ nav {
 }
 
 /* Sandwich Menu */
-nav a
-{
+nav a {
   text-decoration: none;
   color: #232323;
 
   transition: color 0.3s ease;
 }
 
-nav a:hover
-{
+nav a:hover {
   color: tomato;
 }
 
-#menuToggle
-{
+#menuToggle {
   display: block;
   position: relative;
   top: 50px;
@@ -35,8 +32,7 @@ nav a:hover
   user-select: none;
 }
 
-#menuToggle input
-{
+#menuToggle input {
   display: block;
   width: 40px;
   height: 32px;
@@ -55,8 +51,7 @@ nav a:hover
 /*
  * Just a quick hamburger
  */
-#menuToggle span
-{
+#menuToggle span {
   display: block;
   width: 33px;
   height: 4px;
@@ -70,18 +65,16 @@ nav a:hover
 
   transform-origin: 4px 0px;
 
-  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
-  background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
+  background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
   opacity 0.55s ease;
 }
 
-#menuToggle span:first-child
-{
+#menuToggle span:first-child {
   transform-origin: 0% 0%;
 }
 
-#menuToggle span:nth-last-child(2)
-{
+#menuToggle span:nth-last-child(2) {
   transform-origin: 0% 100%;
 }
 
@@ -89,8 +82,7 @@ nav a:hover
  * Transform all the slices of hamburger
  * into a crossmark.
  */
-#menuToggle input:checked ~ span
-{
+#menuToggle input:checked ~ span {
   opacity: 1;
   transform: rotate(45deg) translate(-2px, -1px);
   background: #232323;
@@ -99,8 +91,7 @@ nav a:hover
 /*
  * But let's hide the middle one.
  */
-#menuToggle input:checked ~ span:nth-last-child(3)
-{
+#menuToggle input:checked ~ span:nth-last-child(3) {
   opacity: 0;
   transform: rotate(0deg) scale(0.2, 0.2);
 }
@@ -108,8 +99,7 @@ nav a:hover
 /*
  * Ohyeah and the last one should go the other direction
  */
-#menuToggle input:checked ~ span:nth-last-child(2)
-{
+#menuToggle input:checked ~ span:nth-last-child(2) {
   transform: rotate(-45deg) translate(0, -1px);
 }
 
@@ -117,8 +107,7 @@ nav a:hover
  * Make this absolute positioned
  * at the top left of the screen
  */
-#menu
-{
+#menu {
   position: absolute;
   width: 400px;
   margin: -100px 0 0 -50px;
@@ -134,13 +123,12 @@ nav a:hover
   transform-origin: 0% 0%;
   transform: translate(-100%, 0);
 
-  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
   overflow: scroll;
   -webkit-overflow-scrolling: touch;
 }
 
-#menu li
-{
+#menu li {
   padding: 10px 0;
   font-size: 22px;
 }
@@ -148,7 +136,31 @@ nav a:hover
 /*
  * And let's slide it in from the left
  */
-#menuToggle input:checked ~ ul
-{
+#menuToggle input:checked ~ ul {
   transform: none;
+}
+
+.header-mobile {
+  p, a {
+    margin: 0;
+    font-size: 16px;
+  }
+
+  .toc-section-list {
+    margin-left: 0;
+
+    li a {
+      font-weight: 500;
+      color: $blue;
+    }
+
+    .toc-subsection-list {
+      margin-left: 0;
+
+      li a {
+        font-weight: 400;
+        color: black;
+      }
+    }
+  }
 }

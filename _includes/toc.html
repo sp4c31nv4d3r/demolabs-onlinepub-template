@@ -1,29 +1,52 @@
 <div class="toc">
 	<div class="toc__inner">
 		<div class="sidebar__inner">
+			<p class="icons">
+				<a href="book.pdf" title="Download PDF" target="_blank">
+					<i class="fa fa-download"></i>
+				</a>
+				<a href="https://repo.com" title="Project on github" target="_blank">
+					<i class="fa fa-github"></i>
+				</a>
+			</p>
 			<h1>Inhalt</h1>
 			<ul>
-			{% assign chapters = site.chapters | where: "type", "chapter" | sort: "chapter" %}
-			{% for chapter in chapters %}
-			<li>
-			<p class="toc-chapter"><a href="#{{chapter.chapter}}-{{chapter.title}}">{{chapter.chapter}} {{chapter.title}}</a></p>
-			{% assign sections = site.chapters | where: "type", "section" | where: "chapter", chapter.chapter | sort: "section" %}
-			<ul class="toc-section-list">
-			{% for section in sections%}
-			<li>
-			<p><a href="#{{chapter.chapter}}-{{section.section}}-{{section.title}}">{{chapter.chapter}}.{{section.section}} {{section.title}}</a></p>
-			{% assign subsections = site.chapters | where: "type", "subsection" | where: "chapter", chapter.chapter | where: "section", section.section | sort: "subsection" %}
-			<ul class="toc-subsection-list">
-			{% for subsection in subsections %}
-			<li><a href="#{{chapter.chapter}}-{{section.section}}-{{subsection.subsection}}-{{subsection.title}}">{{chapter.chapter}}.{{section.section}}.{{subsection.subsection}} {{subsection.title}}</li>
-			{% endfor %}
+				{% assign chapters = site.chapters | where: "type", "chapter" | sort: "chapter" %}
+				{% for chapter in chapters %}
+				<p class="toc-chapters">
+					<li>
+						<a href="#{{chapter.chapter}}-{{chapter.title}}">
+							<span class="toc-entry-number"><p>{{chapter.chapter}}.{{section.section}}</p></span>
+							<span class="toc-entry-title"><p>{{chapter.title}}</p></span>
+						</a>
+
+						{% assign sections = site.chapters | where: "type", "section" | where: "chapter", chapter.chapter | sort: "section" %}
+						<ul class="toc-section-list">
+							{% for section in sections%}
+							<li>
+								<a href="#{{chapter.chapter}}-{{section.section}}-{{section.title}}">
+									<span class="toc-entry-number"><p>{{chapter.chapter}}.{{section.section}}</p></span>
+									<span class="toc-entry-title"><p>{{section.title}}</p></span>
+								</a>
+								{% assign subsections = site.chapters | where: "type", "subsection" | where: "chapter", chapter.chapter | where: "section", section.section | sort: "subsection" %}
+								<ul class="toc-subsection-list">
+								{% for subsection in subsections %}
+									<li>
+										<a href="#{{chapter.chapter}}-{{section.section}}-{{subsection.subsection}}-{{subsection.title}}">
+											<span class="toc-entry-number"><p>{{chapter.chapter}}.{{section.section}}.{{subsection.subsection}}</p></span>
+											<span class="toc-entry-title"><p>{{subsection.title}}</p></span>
+										</a>
+									</li>
+								{% endfor %}
+								</ul>
+							</li>
+							{% endfor %}
+						</ul>
+					</li>
+				</p>
+				{% endfor %}
 			</ul>
-			</li>
-			{% endfor %}
-			</ul>
-			</li>
-			{% endfor %}
-			</ul>
+
 			<!--<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tempus id leo et aliquam. Proin consectetur ligula vel neque cursus laoreet. </p>-->
 
 			<!--<p>Nullam dignissim, augue at consectetur pellentesque, metus ipsum interdum sapien, quis ornare quam enim vel ipsum.</p>-->

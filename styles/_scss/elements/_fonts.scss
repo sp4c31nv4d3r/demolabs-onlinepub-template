@@ -2,7 +2,7 @@
 @font-face { font-family: 'fira-sans-light'; 			src: url('../../../fonts/FiraSans-Light.otf')			format('opentype'); }
 @font-face { font-family: 'fira-sans-regular'; 			src: url('../../../fonts/FiraSans-Regular.otf')		format('opentype'); }
 
-@font-face { font-family: 'print-no'; 					src: url('../../../fonts/Pinto-NO_01.otf')			format('opentype'); }
+@font-face { font-family: 'print-no'; 					src: url('../../../fonts/pinto-no_01.otf')			format('opentype'); }
 @font-face { font-family: 'cabin-sketch-regular'; 		src: url('../../../fonts/CabinSketch-Regular.otf')	format('opentype'); }
 
 /* montserrat-100 - latin */
@@ -238,4 +238,9 @@
   url('/fonts/montserrat/montserrat-v12-latin-900italic.woff') format('woff'), /* Modern Browsers */
   url('/fonts/montserrat/montserrat-v12-latin-900italic.ttf') format('truetype'), /* Safari, Android, iOS */
   url('/fonts/montserrat/montserrat-v12-latin-900italic.svg#Montserrat') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'pinto';
+  src: url('/fonts/pinto-no_01.otf') format('opentype');
 }

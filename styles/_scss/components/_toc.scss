@@ -7,25 +7,32 @@ p.toc-chapter a, p.toc-chapter a:hover, p.toc-chapter a:active, p.toc-chapter a:
   color: #5e2ad0;
 }
 
-.toc-section-list {
-  margin-left: 2em;
-}
-
 .toc-section-list a, .toc-section-list a:hover, .toc-section-list a:active, .toc-section-list a:visited {
   color: black;
 }
 
-.toc-subsection-list {
-  margin-left: 2em;
-}
-
-.toc{
+.toc {
   float: right;
   color: black;
   will-change: min-height;
+  margin-right: 20px;
 }
 
-.sidebar__inner{
+p {
+  margin: 0;
+  padding: 5px 0;
+}
+
+.toc-entry-number {
+  float: left;
+}
+
+.toc-entry-title {
+  margin-left: 3.5rem;
+  display: block;
+}
+
+.sidebar__inner {
 
   width: 20em;
   /*margin-right: 40px;*/
@@ -36,4 +43,5 @@ p.toc-chapter a, p.toc-chapter a:hover, p.toc-chapter a:active, p.toc-chapter a:
   transform: translate(0, 0);
   transform: translate3d(0, 0, 0);
   will-change: position, transform;
+  //overflow: scroll;
 }

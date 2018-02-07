@@ -1,0 +1,33 @@
+/* mobile view*/
+@media (max-width: 70em) {
+  .toc {
+    display: none;
+  }
+
+  .main-content {
+    width: 90%;
+    padding-right: 7em;
+  }
+
+  .header {
+    /*display: none;*/
+  }
+
+  .header-mobile {
+    display: block;
+    height: 5em;
+    width: 100%;
+    border-bottom: 1px solid black;
+    position: fixed;
+    background-color: white;
+    z-index: 10;
+  }
+
+  .container {
+    margin-top: 5em;
+  }
+
+  .header-picture {
+    margin-top: 5em;
+  }
+}
