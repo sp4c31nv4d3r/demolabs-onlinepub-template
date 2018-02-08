@@ -55,3 +55,9 @@ p {
   will-change: position, transform;
   //overflow: scroll;
 }
+
+.sticky {
+  position: fixed;
+  top: 0;
+  right: 0;
+}
