@@ -10,28 +10,25 @@ fiktive Personas, ihre Herausforderungen, Weiterbildungsbedarfe und Fähigkeiten
 stereotypische Typen einer Zielgruppe dar. Sie dienen dazu, Motivationen und Bedürfnisse in der Ausarbeitung von 
 Angeboten (z.B. Weiterbildungsmaßnahmen) besser zu berücksichtigen.</strong>
 
-### Marie (25), Digital Native
+#### Marie (25), Digital Native
+„Über dieses Thema sprechen wir 5 Jahre – jetzt endlich tun!“
 
-“Über dieses Thema sprechen wir 5 Jahre – jetzt endlich tun!”
-
-<div style="float:right; margin-right: 40px; margin-bottom: 20px">
-    <img src="/images/marie.png" style="display: block"/>
+<div style="float:right; margin-right: 0px; margin-left: 40px; margin-bottom: 20px">
+    <img src="/images/marie.png"  style="display: block; width:250px;"/>
     <small>Marie - Digital Native</small>
 </div>
 
 **Charakter**
+> * Ist gut vernetzt und sehr engagiert, produziert eigene Inhalte digital.
+> * Möchte Brücken schlagen, ist aber genervt, dass sich strukturell zu wenig verändert.
+> *  Kritisch, hinterfragt Strukturen und “schubst” in die digitale Richtung.
+> * Sieht Digitalisierung als große Chance für zeitgemäße Jugendarbeit.
 
-* Ist gut vernetzt und sehr engagiert, produziert eigene Inhalte digital.
-* Möchte Brücken schlagen, ist aber genervt, dass
-  sich strukturell zu wenig verändert.
-*  Kritisch, hinterfragt Strukturen und “schubst” in die digitale Richtung.
-* Sieht Digitalisierung als große Chance für zeitgemäße Jugendarbeit.
 
 **Arbeitsbereiche**
-
-* Übernimmt die externe und interne Kommunikation für einen bundesweiten Jugendverband.
-* Nutzt diverse Kommunikationstools und ist Teil der “Digital-AG”.
-* Ist Social Media Referentin, bloggt täglich für den Jugendverband und betreibt sämtliche Social Media-Kanäle.
+> * Übernimmt die externe und interne Kommunikation für einen bundesweiten Jugendverband.
+> * Nutzt diverse Kommunikationstools und ist Teil der “Digital-AG”.
+> * Ist Social Media Referentin, bloggt täglich für den Jugendverband und betreibt sämtliche Social Media-Kanäle.
 
 **Ziele**
 

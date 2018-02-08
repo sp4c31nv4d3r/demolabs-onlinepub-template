@@ -20,3 +20,6 @@ Stimmungsbild zu vermitteln, erheben wir keinen Anspruch auf Vollständigkeit od
 anzunehmen, dass Fachkräfte, die sich für die Digitalisierung interessieren, häufiger an der Umfrage teilgenommen haben 
 als solche, die dem Thema wenig Relevanz zusprechen.
 
+![alt text](/images/01-organisationstyp.svg "organisationstyp")
+
+
