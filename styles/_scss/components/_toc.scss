@@ -31,6 +31,10 @@ p {
   line-height: 1rem;
   font-weight: 600;
   float: left;
+
+  a:hover{
+    color: $blue;
+  }
 }
 
 .toc-entry-title {
@@ -40,6 +44,10 @@ p {
   margin-left: 2rem;
   display: block;  
   font-family: $base-font-family;
+
+  a:hover {
+    color: $blue;
+  }
 }
 
 .sidebar__inner {
@@ -54,4 +62,10 @@ p {
   transform: translate3d(0, 0, 0);
   will-change: position, transform;
   //overflow: scroll;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  right: 0;
 }
