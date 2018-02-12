@@ -1,10 +1,10 @@
 ---
-title: "Über die Autor*innen"
+title: "Über die AutorInnen"
 type: section
 chapter: 1
 section: 3
 ---
-Helene Hahn (Projektleitung), Jasmin Helm (Kommunikation), Moritz Neujeffski (Konzeption von Workshops) und Knut Perseke (Software-Entwicklung) arbeiten im Rahmen der „Datenschule“ und der „Demokratielabore“ sehr engagiert daran, gemeinnützige Organisationen auf dem Weg der Digitalisierung zu begleiten und zu beraten.
+Helene Hahn (Projektleitung), Jasmin Helm (Kommunikation), Moritz Neujeffski (Konzeption von Workshops) und Knut Perseke (Software-Entwicklung) arbeiten im Rahmen der „Datenschule“ und der „Demokratielabore“ sehr engagiert daran, gemeinnützige Organisationen auf dem Weg der Digitalisierung zu begleiten und zu beraten. 
 
 Wir erarbeiten Lernmaterialien zu digitalen Themen, führen
 interaktive Workshops durch und entwickeln digitale Projekte,
