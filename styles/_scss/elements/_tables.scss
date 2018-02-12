@@ -3,10 +3,12 @@ table {
   font-size: 0.8rem;
   margin: 1rem 0;
   width: 100%;
+  color: $main-color;
+  vertical-align: top;
 }
 
 table th {
-  background: #00b9cb;
+  background: $blue;
   color: #fff;
   text-transform: uppercase;
   padding: 0.5rem;
@@ -14,11 +16,15 @@ table th {
 }
 
 table tr:nth-of-type(2n) {
-  background: #91e3f2;
+  background: #fff;
+  vertical-align: top;
+
 }
 
 table tr:nth-of-type(2n+1) {
-  background: #c7eaf1;
+  background: $grey-bright;
+    vertical-align: top;
+
 }
 
 table td {
