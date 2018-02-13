@@ -5,9 +5,12 @@ chapter: 3
 section: 1
 ---
 
-![alt text](/images/newsbusters.png "Logo Title Text 1")
 
 ####Übersicht zum Ablauf
+
+<div style="margin-right: 0px; float:right; margin-left: 40px; margin-bottom: 20px">
+  <img src="/images/newsbusters.png"  style="display: block; max-width:300px; "/>
+</div>
 
 Zu Beginn des Workshops finden sich Teams von ca. zwei bis vier
 Jugendlichen zusammen, die eine fiktive Nachrichtenagentur
@@ -66,11 +69,16 @@ folgende Ausstattung unbedingt:</b>
 * Ablaufplan
 <br><br>
 
+
+
 Alle Materialien sind unter folgendem Link online einsehbar und können jederzeit
 kostenfrei heruntergeladen werden:
 demokratielabore.de/workshops/newsbusters
 
 ####Ziele-Inhalte-Methoden: Der Ablaufplan im Detail
+<div style="margin-right: 0px;  margin-left: 40px; margin-bottom: 20px">
+  <img src="/images/newsbusters.png"  style="display: block; max-width:300px; "/>
+</div>
 
 <div style="color:#0000ff; font-weight: bold;">Schritt 01 / 12</div>
 <table>

@@ -1,5 +1,5 @@
 ---
-title: "Arbeiten mit Daten und digitalen Tools: Die Data Pipeline"
+title: "Invasion der Cybertrolle – Argumente gegen Trolle"
 type: section
 chapter: 3
 section: 2
@@ -60,6 +60,9 @@ kostenfrei heruntergeladen werden:
 demokratielabore.de/workshops/invasiondercybertolle
 
 ####Ziele-Inhalte-Methoden: Der Ablaufplan im Detail
+<div style="margin-right: 0px;  margin-left: 0px; margin-bottom: 20px">
+  <img src="/images/cybertrolle-2.png"  style="display: block; max-width:500px; "/>
+</div>
 
 ####Tipps
 Hier noch ein paar Tipps, die die Durchführung des
