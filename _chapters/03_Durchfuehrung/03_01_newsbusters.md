@@ -23,8 +23,8 @@ teilweise aber auch mit Fehldarstellungen und Unwahrheiten gespickt
 sind (mindestens eine echte und eine falsche Nachricht pro
 Agentur).
 
-Mithilfe bereits existierender Bausätze wie Mozilla Goggles,
-24aktuelles oder Paul Newsman werden die Meldungen inklusive
+Mithilfe bereits existierender Bausätze wie [Mozilla Goggles](https://goggles.mozilla.org),
+[24aktuelles](https://24aktuelles.com) oder [Paul Newsman](https://paulnewsman.com) werden die Meldungen inklusive
 Titel und Foto im Stil bekannter Nachrichtenseiten veröffentlicht
 und zwischen den Gruppen ausgetauscht. Die Gruppen
 müssen dann die Fehler und Falschinformationen ihrer Konkurrenten
@@ -69,11 +69,9 @@ folgende Ausstattung unbedingt:</b>
 * Ablaufplan
 <br><br>
 
-
-
 Alle Materialien sind unter folgendem Link online einsehbar und können jederzeit
-kostenfrei heruntergeladen werden:
-demokratielabore.de/workshops/newsbusters
+kostenfrei heruntergeladen werden: [demokratielabore.de/workshops/newsbusters](https://demokratielabore.de/workshops/newsbusters)
+
 
 ####Ziele-Inhalte-Methoden: Der Ablaufplan im Detail
 <div style="margin-right: 0px;  margin-left: 40px; margin-bottom: 20px">
@@ -81,6 +79,8 @@ demokratielabore.de/workshops/newsbusters
 </div>
 
 <div style="color:#0000ff; font-weight: bold;">Schritt 01 / 12</div>
+<p style="color:#0000ff; font-weight: bold;">Themeneinführung</p>
+
 <table>
   <tbody>
       <td style="font-weight: bold;">Minuten</td>
@@ -89,10 +89,6 @@ demokratielabore.de/workshops/newsbusters
     <tr>
       <td style="font-weight: bold;">Ziel</td>
       <td>Lust machen, Anteasern des Themas</td>
-    </tr>
-   <tr>
-      <td style="font-weight: bold;">Inhalt</td>
-      <td>Themeneinführung</td>
     </tr>
     <tr>
       <td style="font-weight: bold;">Methode</td>
@@ -114,6 +110,8 @@ demokratielabore.de/workshops/newsbusters
 <br>
 
 <div style="color:#0000ff; font-weight: bold;">Schritt 02 / 12</div>
+<p style="color:#0000ff; font-weight: bold;">Warm Up</p>
+
 <table>
   <tbody>
       <td style="font-weight: bold;">Minuten</td>
@@ -123,23 +121,21 @@ demokratielabore.de/workshops/newsbusters
       <td style="font-weight: bold;">Ziel</td>
       <td>Meinungen und Eigenschaften anderer kennenlernen</td>
     </tr>
-   <tr>
-      <td style="font-weight: bold;">Inhalt</td>
-      <td>Warm Up</td>
-    </tr>
     <tr>
       <td style="font-weight: bold;">Methode</td>
       <td>Alle die ...? (Spiel 32) im Stuhlkreis</td>
     </tr>
     <tr>
       <td style="font-weight: bold;">Material</td>
-      <td>praxis-jugendarbeit.de/spielesammlung/spiele-kennenlernspiele.html</td>
+      <td><a href="http://praxis-jugendarbeit.de/spielesammlung/spiele-kennenlernspiele.html">praxis-jugendarbeit.de/spielesammlung/spiele-kennenlernspiele</a></td>
     </tr>
   </tbody>
 </table>
 <br>
 
 <div style="color:#0000ff; font-weight: bold;">Schritt 03 / 12</div>
+<p style="color:#0000ff; font-weight: bold;">Gruppenbildung</p>
+
 <table>
   <tbody>
       <td style="font-weight: bold;">Minuten</td>
@@ -148,10 +144,6 @@ demokratielabore.de/workshops/newsbusters
     <tr>
       <td style="font-weight: bold;">Ziel</td>
       <td>Durchmischung</td>
-    </tr>
-   <tr>
-      <td style="font-weight: bold;">Inhalt</td>
-      <td>Gruppenbildung</td>
     </tr>
     <tr>
       <td style="font-weight: bold;">Methode</td>
@@ -170,6 +162,8 @@ Koffer mit Handouts stehen bereit.</td>
 <br>
 
 <div style="font-weight: bold;">Optional</div>
+<p style="color:#0000ff; font-weight: bold;">Nachrichtenagentur gründen</p>
+
 <table>
   <tbody>
       <td style="font-weight: bold;">Minuten</td>
@@ -178,10 +172,6 @@ Koffer mit Handouts stehen bereit.</td>
     <tr>
       <td style="font-weight: bold;">Ziel</td>
       <td>Gruppenzusammenhalt, Identität</td>
-    </tr>
-   <tr>
-      <td style="font-weight: bold;">Inhalt</td>
-      <td>Nachrichtenagentur gründen</td>
     </tr>
     <tr>
       <td style="font-weight: bold;">Methode</td>
@@ -199,6 +189,8 @@ Flipchart (zum notieren der Punkte und Agenturnamen)</td>
 <br>
 
 <div style="font-weight: bold;">Optional</div>
+<p style="color:#0000ff; font-weight: bold;">Toolkit</p>
+
 <table>
   <tbody>
       <td style="font-weight: bold;">Minuten</td>
@@ -207,10 +199,6 @@ Flipchart (zum notieren der Punkte und Agenturnamen)</td>
     <tr>
       <td style="font-weight: bold;">Ziel</td>
       <td>Intro: Fakten</td>
-    </tr>
-   <tr>
-      <td style="font-weight: bold;">Inhalt</td>
-      <td>Toolkit</td>
     </tr>
     <tr>
       <td style="font-weight: bold;">Methode</td>
@@ -226,6 +214,8 @@ Formate von Nachrichten</td>
 <br>
 
 <div style="color:#0000ff; font-weight: bold;">Schritt 04 / 12</div>
+<p style="color:#0000ff; font-weight: bold;">Quiz 1</p>
+
 <table>
   <tbody>
       <td style="font-weight: bold;">Minuten</td>
@@ -234,10 +224,6 @@ Formate von Nachrichten</td>
     <tr>
       <td style="font-weight: bold;">Ziel</td>
       <td>Intro: Fakes – Auf Problematik aufmerksam machen</td>
-    </tr>
-   <tr>
-      <td style="font-weight: bold;">Inhalt</td>
-      <td>Quiz 1</td>
     </tr>
     <tr>
       <td style="font-weight: bold;">Methode</td>
@@ -252,6 +238,7 @@ Formate von Nachrichten</td>
 <br>
 
 <div style="color:#0000ff; font-weight: bold;">Schritt 05 / 12</div>
+<p style="color:#0000ff; font-weight: bold;">Intro: 24aktuelles</p>
 <table>
   <tbody>
       <td style="font-weight: bold;">Minuten</td>
@@ -261,10 +248,7 @@ Formate von Nachrichten</td>
       <td style="font-weight: bold;">Ziel</td>
       <td>Tool kennenlernen</td>
     </tr>
-   <tr>
-      <td style="font-weight: bold;">Inhalt</td>
-      <td>Intro: 24aktuelles</td>
-    </tr>
+ 
     <tr>
       <td style="font-weight: bold;">Methode</td>
       <td>Tool vorstellen, Aufgabenstellung: Jedes 2er-Team vor einem
@@ -281,6 +265,8 @@ ausdrucken lassen.</td>
 <br>
 
 <div style="color:#0000ff; font-weight: bold;">Schritt 06 / 12</div>
+<p style="color:#0000ff; font-weight: bold;">Schreibphase</p>
+
 <table>
   <tbody>
       <td style="font-weight: bold;">Minuten</td>
@@ -290,10 +276,6 @@ ausdrucken lassen.</td>
       <td style="font-weight: bold;">Ziel</td>
       <td>Methoden kennenlernen, sich in Schreiber*innen
 hineinversetzen</td>
-    </tr>
-   <tr>
-      <td style="font-weight: bold;">Inhalt</td>
-      <td>Schreibphase</td>
     </tr>
     <tr>
       <td style="font-weight: bold;">Methode</td>
@@ -312,6 +294,8 @@ Schreiben lassen und Gruppen bedarfsweise unterstützen.</td>
 
 
 <div style="color:#0000ff; font-weight: bold;">Schritt 07 / 12</div>
+<div style="color:#0000ff; font-weight: bold;">Kurze Pause</div>
+
 <table>
   <tbody>
       <td style="font-weight: bold;">Minuten</td>
@@ -320,10 +304,6 @@ Schreiben lassen und Gruppen bedarfsweise unterstützen.</td>
     <tr>
       <td style="font-weight: bold;">Ziel</td>
       <td>Erholung</td>
-    </tr>
-   <tr>
-      <td style="font-weight: bold;">Inhalt</td>
-      <td>Kurze Pause</td>
     </tr>
     <tr>
       <td style="font-weight: bold;">Methode</td>
@@ -338,6 +318,7 @@ Schreiben lassen und Gruppen bedarfsweise unterstützen.</td>
 <br>
 
 <div style="color:#0000ff; font-weight: bold;">Schritt 08 / 12 / Kurzvariante</div>
+<div style="color:#0000ff; font-weight: bold;">Vorstellung und Quiz</div>
 <table>
   <tbody>
       <td style="font-weight: bold;">Minuten</td>
@@ -347,10 +328,6 @@ Schreiben lassen und Gruppen bedarfsweise unterstützen.</td>
       <td style="font-weight: bold;">Ziel</td>
       <td>Methoden erkennen, Nachforschungsmöglichkeiten
 wahrnehmen, Haltungen begründen, kritisch Hinterfragen</td>
-    </tr>
-   <tr>
-      <td style="font-weight: bold;">Inhalt</td>
-      <td>Vorstellung und Quiz</td>
     </tr>
     <tr>
       <td style="font-weight: bold;">Methode</td>
@@ -370,6 +347,8 @@ Fake nicht erkannt, erhält die erstellende Agentur einen Punkt.</td>
 <br>
 
 <div style="color:#0000ff; font-weight: bold;">Schritt 08.1 / 12 Langvariante</div>
+<p style="color:#0000ff; font-weight: bold;">Analysephase</p>
+
 <table>
   <tbody>
       <td style="font-weight: bold;">Minuten</td>
@@ -379,10 +358,6 @@ Fake nicht erkannt, erhält die erstellende Agentur einen Punkt.</td>
       <td style="font-weight: bold;">Ziel</td>
       <td>Methoden erkennen, Nachforschungsmöglichkeiten wahrnehmen,
 Haltungen begründen, kritisch Hinterfragen</td>
-    </tr>
-   <tr>
-      <td style="font-weight: bold;">Inhalt</td>
-      <td>Analysephase</td>
     </tr>
     <tr>
       <td style="font-weight: bold;">Methode</td>
@@ -401,6 +376,8 @@ Begründung und Richtigstellung überlegen.</td>
 <br>
 
 <div style="font-weight: bold;">Optional</div>
+<p style="font-weight: bold;">Weitere Analysephasen</p>
+
 <table>
   <tbody>
       <td style="font-weight: bold;">Minuten</td>
@@ -410,10 +387,6 @@ Begründung und Richtigstellung überlegen.</td>
       <td style="font-weight: bold;">Ziel</td>
       <td>Methoden erkennen, Nachforschungsmöglichkeiten
 wahrnehmen, Haltungen begründen, kritisch Hinterfragen</td>
-    </tr>
-   <tr>
-      <td style="font-weight: bold;">Inhalt</td>
-      <td>Weitere Analysephasen</td>
     </tr>
     <tr>
       <td style="font-weight: bold;">Methode</td>
@@ -429,6 +402,8 @@ wahrnehmen, Haltungen begründen, kritisch Hinterfragen</td>
 
 
 <div style="color:#0000ff; font-weight: bold;">Schritt 08.2 / 12 Langvariante</div>
+<p style="color:#0000ff; font-weight: bold;">Vorstellung der Ergebnisse</p>
+
 <table>
   <tbody>
       <td style="font-weight: bold;">Minuten</td>
@@ -437,10 +412,6 @@ wahrnehmen, Haltungen begründen, kritisch Hinterfragen</td>
     <tr>
       <td style="font-weight: bold;">Ziel</td>
       <td>Reflexion</td>
-    </tr>
-   <tr>
-      <td style="font-weight: bold;">Inhalt</td>
-      <td>Vorstellung der Ergebnisse</td>
     </tr>
     <tr>
       <td style="font-weight: bold;">Methode</td>
@@ -457,6 +428,8 @@ den Finder*innen einen Punkt, übersehene den SchreiberInnen.</td>
 <br>
 
 <div style="color:#0000ff; font-weight: bold;">Schritt 09 / 12</div>
+<p style="color:#0000ff; font-weight: bold;"> Quiz 2</p>
+
 <table>
   <tbody>
       <td style="font-weight: bold;">Minuten</td>
@@ -466,10 +439,6 @@ den Finder*innen einen Punkt, übersehene den SchreiberInnen.</td>
       <td style="font-weight: bold;">Ziel</td>
       <td>Outro (Encore): Können „Fake News“ im Vergleich zu vorher
 besser erkennen (hoffentlich)</td>
-    </tr>
-   <tr>
-      <td style="font-weight: bold;">Inhalt</td>
-      <td>Quiz 2</td>
     </tr>
     <tr>
       <td style="font-weight: bold;">Methode</td>
@@ -492,6 +461,8 @@ der Auswahl-Phase</td>
 <br>
 
 <div style="color:#0000ff; font-weight: bold;">Schritt 10 / 12</div>
+<p style="color:#0000ff; font-weight: bold;">Jury</p>
+
 <table>
   <tbody>
       <td style="font-weight: bold;">Minuten</td>
@@ -500,10 +471,6 @@ der Auswahl-Phase</td>
     <tr>
       <td style="font-weight: bold;">Ziel</td>
       <td>Eigenexpertise wahrnehmen</td>
-    </tr>
-   <tr>
-      <td style="font-weight: bold;">Inhalt</td>
-      <td>Jury</td>
     </tr>
     <tr>
       <td style="font-weight: bold;">Methode</td>
@@ -523,6 +490,8 @@ News“.</td>
 <br>
 
 <div style="color:#0000ff; font-weight: bold;">Schritt 11 / 12</div>
+<p style="color:#0000ff; font-weight: bold;">Juryentscheidung</p>
+
 <table>
   <tbody>
       <td style="font-weight: bold;">Minuten</td>
@@ -531,10 +500,6 @@ News“.</td>
     <tr>
       <td style="font-weight: bold;">Ziel</td>
       <td>Jeder ist Gewinner, „Fake News“ sind unterschiedlich</td>
-    </tr>
-   <tr>
-      <td style="font-weight: bold;">Inhalt</td>
-      <td>Juryentscheidung</td>
     </tr>
     <tr>
       <td style="font-weight: bold;">Methode</td>
@@ -553,6 +518,8 @@ werden aufgenommen!</td>
 <br>
 
 <div style="color:#0000ff; font-weight: bold;">Schritt 12 / 12</div>
+<p style="color:#0000ff; font-weight: bold;">Diskussion</p>
+
 <table>
   <tbody>
       <td style="font-weight: bold;">Minuten</td>
@@ -561,10 +528,6 @@ werden aufgenommen!</td>
     <tr>
       <td style="font-weight: bold;">Ziel</td>
       <td>Realitätsbezug herstellen</td>
-    </tr>
-   <tr>
-      <td style="font-weight: bold;">Inhalt</td>
-      <td>Diskussion</td>
     </tr>
     <tr>
       <td style="font-weight: bold;">Methode</td>

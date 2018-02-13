@@ -27,14 +27,14 @@ ihren Kanälen zu verbreiten. Außerdem bieten viele regionale
 Zeitungen z.B. einen Online-Veranstaltungskalender an, in dem
 solche Events platziert werden können. Falls ihr auf Social Media
 Plattformen unterwegs seid, gibt es auch hier viele Möglichkeiten
-euer Netzwerk zu nutzen: In Facebook-Veranstaltungen
+euer Netzwerk zu nutzen: In [Facebook](https://www.facebook.com)-Veranstaltungen
 könnt ihr z.B. gezielt Personen zu eurem Workshop einladen und
 regelmäßig mit Infos und Neuigkeiten zu den Vorbereitungen,
-den Inhalten oder Ähnlichem deren Neugier steigern. Auf Twitter
+den Inhalten oder Ähnlichem deren Neugier steigern. Auf [Twitter](https://www.twitter.com)
 könnt ihr u.a. unter einem bestimmten Hashtag, alle wichtigen,
 lustigen und spannenden Infos und Bilder im Vorfeld verbreiten.
 Toll wäre es auch, wenn ihr vor dem Event ein paar engagierte
-Jugendliche findet, die z.B. Lust haben, eine Instagram Story
+Jugendliche findet, die z.B. Lust haben, eine [Instagram](https://www.instagram.com) Story
 während des Workshops zu machen. Eurer Kreativität sind hier
 keine Grenzen gesetzt!
 
@@ -43,8 +43,8 @@ die Anmeldung zu eurem Event: Wenn ihr den Workshop auf eine
 bestimmte TeilnehmerInnenzahl beschränkt, ist eine Anmeldung
 vorher wichtig. Wie diese ausgestaltet ist, liegt ganz bei
 euch. Bevorzugt ihr einen persönlichen Mailkontakt oder ist die
-Anmeldung mit Hilfe eines Tools, wie Mailchimp, Meetup oder
-Google Forms sinnvoller? Im selben Schritt könnt ihr von den
+Anmeldung mit Hilfe eines Tools, wie [Mailchimp](https://www.mailchimp.com), [Meetup](https://www.meetup.com) oder
+[Google Forms](https://docs.google.com/forms/u/0/) sinnvoller? Im selben Schritt könnt ihr von den
 Jugendlichen auch eine Einverständniserklärung der Eltern für
 Fotos oder Video-/Audioaufnahmen einfordern.
 
