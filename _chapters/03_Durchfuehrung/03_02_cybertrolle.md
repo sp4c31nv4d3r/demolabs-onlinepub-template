@@ -61,7 +61,7 @@ kostenfrei heruntergeladen werden: <a href="https://demokratielabore.de/workshop
 
 ####Ziele-Inhalte-Methoden: Der Ablaufplan im Detail
 <div style="margin-right: 0px;  margin-left: 0px; margin-bottom: 20px">
-  <img src="/images/cybertrolle-2.png"  style="display: block; max-width:500px; "/>
+  <img src="/images/cybertrolle-2.png"  style="display: block; max-width:380px; "/>
 </div>
 
 <div style="color:#0000ff; font-weight: bold;">Schritt 01 / 06</div>

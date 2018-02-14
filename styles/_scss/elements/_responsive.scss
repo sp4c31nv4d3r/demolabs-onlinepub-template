@@ -1,5 +1,6 @@
 /* mobile view*/
-@media (max-width: 70em) {
+@media (max-width: 100em) {
+
   .toc {
     display: none;
   }
@@ -28,12 +29,18 @@
   }
 
   .header-picture {
-    background-image: url(/images/hero-middle.png);
+    background-image: url(/images/hero-big.png);
     margin-top: 5em;
     background-repeat:no-repeat;
-    background-size: contain;
-    display: flex;
+  }
 
+  .header-text {
+    margin-left: 108px;
+    margin-top: 70px;
+
+    h1 {
+      font-size: 40px;
+    }
   }
 }
 
@@ -67,10 +74,19 @@
   }
 
   .header-picture {
-    background-image: url(/images/hero-55.png);
+    background-image: url(/images/hero-middle.png);
     margin-top: 5em;
     background-repeat:no-repeat;
-    background-size: contain;
+
+  }
+
+  .header-text {
+    margin-left: 59px;
+    margin-top: 50px;
+
+    h1 {
+      font-size: 30px;
+    }
   }
 }
 
@@ -107,8 +123,16 @@
     background-image: url(/images/hero-small.png);
     margin-top: 5em;
     background-repeat:no-repeat;
-    background-size: contain;
-    display: flex;
+        display: flex;
+  }
+
+  .header-text {
+    margin-left: 38px;
+    margin-top: 20px;
+
+    h1 {
+      font-size: 23px;
+    }
   }
 
   #menuToggle {

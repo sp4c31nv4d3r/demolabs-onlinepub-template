@@ -74,8 +74,8 @@ kostenfrei heruntergeladen werden: [demokratielabore.de/workshops/newsbusters](h
 
 
 ####Ziele-Inhalte-Methoden: Der Ablaufplan im Detail
-<div style="margin-right: 0px;  margin-left: 40px; margin-bottom: 20px">
-  <img src="/images/newsbusters.png"  style="display: block; max-width:300px; "/>
+<div style="margin-right: 0px;  margin-left: 0px; margin-bottom: 20px">
+  <img src="/images/newsbusters-2.png"  style="display: block; max-width:380px; "/>
 </div>
 
 <div style="color:#0000ff; font-weight: bold;">Schritt 01 / 12</div>
