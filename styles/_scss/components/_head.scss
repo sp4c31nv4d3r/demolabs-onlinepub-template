@@ -3,7 +3,10 @@ header{
 }
 
 header h1{
-  font-size: 32px;
+  font-size: 65px;
+  color: $blue;
+  font-weight: 600;
+
 }
 
 header {
@@ -25,8 +28,7 @@ header {
 }
 
 .header-picture {
-  background-image: url("/images/group-2@3x.png ");
-  background-size: cover;
+  background-image: url("/images/hero-huge.png ");
   width:100%;
 }
 
@@ -35,8 +37,8 @@ header {
 }
 
 .header-text {
-  margin: auto;
-  width: 70%;
+  margin-left: 135px;
+  margin-top: 120px;
 }
 
 .header img {
