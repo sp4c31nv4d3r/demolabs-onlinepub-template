@@ -15,4 +15,6 @@ Paula Grünwald<br>
 <b>Design: </b> <a href="http://thisisnoteden.com">Marie Wolf</a>, Alexander Köpke, Nadine Stammen<br>
 <b>Satz:</b> Marie Wolf, Alexander Köpke<br>
 <b>Druckerei der Publikation:</b> <a href="http://www.druckerei-ruess.de/en">Druckerei Rüss</a><br>
-<br><br><br>
+<br>
+ <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.de">CC BY-SA 4.0</a> 
+ <br><br>
