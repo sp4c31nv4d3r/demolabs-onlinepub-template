@@ -18,3 +18,7 @@ Demokratie leben! gefördert.
 
 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.de)
 
+# Online Publikationen Demokratielabore
+This is a jekyll template for publishing online material for demokratielabore.de website. Based on the Handbook from [Jugend Hackt](https://github.com/Jugendhackt/Handbuch-Jugend-Hackathons)
+
+
