@@ -1,9 +1,20 @@
-# Handbuch Jugend-Hackathons
-[CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) Paula Glaser, Maria Reimer, Daniel Seitz für [Open Knowledge Foundation Deutschland e.V.](http://www.okfn.de) und [mediale pfade.org – Verein für Medienbildung e.V.](http://www.mediale-pfade.org) 
+#Bedarfsanalyse
 
-Gefördert durch die Jugend- und Familienstiftung des Landes Berlin im Rahmen des Jugend-Demokratiefonds Berlin. Diese Förderung bedeutet nicht zwangsläufig, dass die Stiftung den Ergebnissen und Aussagen des Textes zustimmt.
+Die Publikation ist Rahmen des Projektes „Demokratielabore“ der Open Knowledge Foundation Deutschland entstanden. Die 
+Demokratielabore werden vom Bundesministerium für Familie, Senioren, Frauen und Jugend im Rahmen des Bundesprogramms 
+Demokratie leben! gefördert. 
 
-[Hier](https://jugendhackt.github.io/Handbuch-Jugend-Hackathons) geht es zur Webseite des Handbuchs.
+**Redaktion**: Helene Hahn, Jasmin Helm, Moritz Neujeffski, Knut Perseke
 
-./serve.sh
+**Lektorat**: Andrea Baron
+
+**Illustrationen**: [Christoph Hoppenbrock](http://bildbauer.de/)
+
+**Design**: [Marie Wolf](http://thisisnoteden.com/), Alexander Köpke, Nadine Stammen
+
+**Satz**: Marie Wolf, Alexander Köpke
+
+**Druckerei der Publikation**: [Druckerei Rüss](http://www.druckerei-ruess.de/en)
+
+[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.de)
 
