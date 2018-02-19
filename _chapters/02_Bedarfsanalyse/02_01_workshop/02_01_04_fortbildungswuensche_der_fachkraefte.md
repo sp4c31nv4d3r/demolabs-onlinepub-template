@@ -100,7 +100,7 @@ Angeboten (z.B. Weiterbildungsmaßnahmen) besser zu berücksichtigen.</strong>
 		<li>Probleme, (neue) Jugendliche zu erreichen</li>
 	</ul>
 	<br>
-<b>Ansätze und Weiterbildungsangebote um Marie zu unterstützen</b><br>
+<b>Ansätze und Weiterbildungsangebote um Joachim zu unterstützen</b><br>
 	<ul>
 		<li>Er braucht eine Bezugsperson in der Organisation, die ihm sowohl Chancen als auch Risiken vermitteln kann (Schulung erst im zweiten Schritt).
 		</li>
@@ -149,7 +149,7 @@ Angeboten (z.B. Weiterbildungsmaßnahmen) besser zu berücksichtigen.</strong>
 		<li>Braucht ein gutes Verständnis dafür, welche digitalen Fähigkeiten Fachkräfte innerhalb der Organisatio bereits besitzen, um vorausschauend planen zu können</li>
 	</ul>
 	<br>
-<b>Ansätze und Weiterbildungsangebote um Marie zu unterstützen</b><br>
+<b>Ansätze und Weiterbildungsangebote um Silke zu unterstützen</b><br>
 	<ul>
 		<li>Attraktive Angebote und Strukturen für Beteiligung im Verband schaffen, durch z.B. Workshops, Zusammenkünfte, Review mit vielen Fachkräften: Analoge Begegnung muss bleiben (gemeinsame Entscheidungsfindung ermöglichen)</li>
 		<li>Kreative Formate etablieren, die Spaß machen und bei den MitarbeiterInnen Neugierde wecken, um sich weiter mit dem Thema zu beschäftigen</li>
