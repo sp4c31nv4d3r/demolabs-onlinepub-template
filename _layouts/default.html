@@ -33,6 +33,14 @@
 					<!--<a href="https://erikterwan.com/" target="_blank"><li>Show me more</li></a>-->
 					<!--</ul>-->
 					<ul id="menu">
+						<p class="icons">
+							<a href="/appendix/bedarfsanalyse.pdf" title="Download PDF" target="_blank">
+								<i class="fa fa-download"></i>
+							</a>
+							<a href="https://github.com/okfde/demolabs-onlinepub-template/tree/bedarfsanalyse" title="Project on github" target="_blank">
+								<i class="fa fa-github"></i>
+							</a>
+						</p>
 						{% assign chapters = site.chapters | where: "type", "chapter" | sort: "chapter" %}
 						{% for chapter in chapters %}
 						<li>
