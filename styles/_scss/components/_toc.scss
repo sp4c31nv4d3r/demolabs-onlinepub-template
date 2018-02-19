@@ -1,0 +1,71 @@
+p.toc-chapter {
+  color: #5e2ad0;
+  font-weight: bold;
+  font-family: 'pinto', 'sans-serif';
+
+}
+
+p.toc-chapter a, p.toc-chapter a:hover, p.toc-chapter a:active, p.toc-chapter a:visited {
+  color: #5e2ad0;
+}
+
+.toc-section-list a, .toc-section-list a:hover, .toc-section-list a:active, .toc-section-list a:visited {
+  color: $grey-dark;
+}
+
+.toc {
+  float: right;
+  color: $grey-dark;
+  will-change: min-height;
+  margin-right: 20px;
+}
+
+p {
+  margin: 0;
+  padding: 5px 0;
+}
+
+.toc-entry-number {
+  font-family: $base-font-family;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  font-weight: 600;
+  float: left;
+
+  a:hover{
+    color: $blue;
+  }
+}
+
+.toc-entry-title {
+  font-weight: 600;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  margin-left: 2rem;
+  display: block;  
+  font-family: $base-font-family;
+
+  a:hover {
+    color: $blue;
+  }
+}
+
+.sidebar__inner {
+  font-family: $base-font-family;
+  width: 20em;
+  /*margin-right: 40px;*/
+  /*top: 0;*/
+  border-left: 1px solid #dedede;
+  padding: 10px;
+  /*position: relative;*/
+  transform: translate(0, 0);
+  transform: translate3d(0, 0, 0);
+  will-change: position, transform;
+  //overflow: scroll;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  right: 0;
+}

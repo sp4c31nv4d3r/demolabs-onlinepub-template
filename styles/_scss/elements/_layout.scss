@@ -1,0 +1,54 @@
+body,
+html {
+  padding: 0;
+  margin: 0;
+  min-height: 100%;
+  font-family: $base-font-family;
+  font-size: 19px;
+  overflow: auto;
+  background: #fff;
+  scroll-behavior: smooth;
+  opacity: 1;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $base-font-family;
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 1.4rem;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  position: relative;
+  font-family: $base-font-family;
+  z-index: 1;
+  animation: none;
+  color: $blue;
+  border-bottom: 1px solid rgba(180, 185, 192, 0.5);
+}
+
+a:hover {
+  border-bottom: 1px solid rgba(0, 0, 255, 1);
+  color: $blue;
+  text-decoration: none;
+  transition: all ease 0.3s;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+}

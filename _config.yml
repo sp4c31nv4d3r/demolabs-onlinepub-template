@@ -1,17 +1,31 @@
-baseurl: "/Handbuch-Jugend-Hackathons"
+markdown: rdiscount
 
-collections:
-    - chapters
+exclude:
+  - "CNAME"
+  - "LICENSE"
+  - "browserlist"
+  - "Gemfile*"
+  - "Readme.md"
+  - "*.sh"
+  - ".idea/"
+  - ".git/"
+  - "local/"
+  - "scripts/"
+  - "_site/"
+  - "vendor/"
+
+sass:
+  sass_dir: styles/_scss
+  style: compressed
 
 collections:
     chapters:
         output: true
         permalink: /chapters/:path/
 
-
 defaults:
   - scope:
-      path: ""
-      type: chapters
+        path: ""
+        type: chapters
     values:
-      layout: chapter
+        layout: chapter
