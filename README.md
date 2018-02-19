@@ -1,4 +1,4 @@
-#Bedarfsanalyse
+# Bedarfsanalyse
 
 Die Publikation ist Rahmen des Projektes „Demokratielabore“ der Open Knowledge Foundation Deutschland entstanden. Die 
 Demokratielabore werden vom Bundesministerium für Familie, Senioren, Frauen und Jugend im Rahmen des Bundesprogramms 
