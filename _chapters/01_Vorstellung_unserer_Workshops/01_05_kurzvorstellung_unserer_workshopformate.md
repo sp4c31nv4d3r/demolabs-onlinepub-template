@@ -52,6 +52,11 @@ Ablauf in Kapitel 3.1)
 
 
 ####Hintergrund des Workshops
+
+<div style="margin-right: 0px; float:right; margin-left: 40px; margin-bottom: 20px">
+  <img src="/images/newsbusters-1.png"  style="display: block; max-width:200px; "/>
+</div>
+
 Der Begriff „Fake News“ ist zwar seit einiger Zeit sehr verbreitet,
 jedoch kein neues Phänomen und unter Namen wie „Zeitungsenten“
 oder „Tatarenmeldungen“ schon seit dem 19. Jahrhundert
@@ -69,7 +74,7 @@ die Diskussion um falsche Nachrichten sehr viele Fallstricke:
 Was wahr oder falsch ist, entspricht häufig auch der subjektiven
 Einordnung der Menschen und ihrem Vertrauen in die Medien.
 Bei all diesen Einordnungen spielt die tatsächliche Faktentreue
-der Nachricht jedoch oft keine Rolle.3
+der Nachricht jedoch oft keine Rolle[[2]](https://netzpolitik.org/2016/fakenews-social-bots-sockenpuppen-begriffsklaerung/#fakenews). 
 Der Workshop sensibilisiert für das Thema durch einen bewussten
 Rollenwechsel und vermittelt Recherchefähigkeiten und Techniken
 zur Identifikation von „Fake News“.
@@ -114,6 +119,10 @@ Redegeschick! (Ausführlicher Ablauf in Kapitel 3.2)
 </table>
 
 ####Hintergrund des Workshops
+<div style="margin-right: 0px; float:right; margin-left: 40px; margin-bottom: 20px">
+  <img src="/images/cybertrolle-1.png"  style="display: block; max-width:200px; "/>
+</div>
+
 Ein großer Teil der Kommunikation zwischen Jugendlichen findet
 mittlerweile im Netz statt – z.B. auf Instagram, Facebook, Snapchat
 oder über Messengerdienste wie WhatsApp. Auf sozialen
@@ -123,14 +132,20 @@ eine Person, die in der Netzkommunikation durch gezielte Provokation,
 Störung oder Beleidigung, z.B. in Kommentarspalten oder
 Gruppen, auffällt. Trolle agieren dabei sowohl mit ihrem echten
 Namen, unter dem Namen anderer, einem Pseudonym oder
-anonym.4 Unter dem Deckmantel dieser Anonymität kommt es
+anonym [[3]](https://netzpolitik.org/2016/fakenews-social-bots-sockenpuppen-begriffsklaerung/#fakenews). Unter dem Deckmantel dieser Anonymität kommt es
 häufig zu hitzigen Debatten, teilweise auch unabsichtlich. Im
 Workshop werden Handlungsmöglichkeiten entdeckt, erprobt
 und diskutiert.
 
 
 ####Ungehörsam
-AGut und verrückt demonstrieren – Stadteroberung in einer interaktiven
+
+<div style="margin-right: 0px; float:right; margin-left: 40px; margin-bottom: 20px">
+  <img src="/images/ungehoersam-1.png"  style="display: block; max-width:220; "/>
+</div>
+
+
+Gut und verrückt demonstrieren – Stadteroberung in einer interaktiven
 Rallye! Die Teilnehmenden erarbeiten und erzählen
 dabei eine fiktive Geschichte ihres Stadtviertels über im (Außen-)
 Raum platzierte QR-Codes, deren Entschlüsselung sie vor
@@ -233,6 +248,12 @@ interaktiv erfahrbar zu machen.
 </table>
 
 ####Hintergrund des Workshops
+
+<div style="margin-right: 0px; float:right; margin-left: 40px; margin-bottom: 20px">
+  <img src="/images/got-1.png"  style="display: block; max-width:220; "/>
+</div>
+
+
 Computerspiele sind heutzutage viel mehr als bloße Unterhaltung:
 Immer mehr EntwicklerInnen setzen auf Storylines mit
 politischen Botschaften oder Methoden, die klassisches lineares
@@ -279,7 +300,7 @@ auf Spurensuche zu gehen und das Rätsel zu lösen!
       <td>Junge Menschen im Alter von 15 - 21 Jahren</td>
     </tr>
    <tr>
-      <td style="font-weight: bold;">Anzahl Teilnehmer*innen (min/max):</td>
+      <td style="font-weight: bold;">Anzahl TeilnehmerInnen (min/max):</td>
       <td>4-30 Jugendliche</td>
     </tr>
   </tbody>

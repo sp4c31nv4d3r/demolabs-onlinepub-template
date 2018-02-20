@@ -4,8 +4,8 @@ type: chapter
 chapter: 5
 ---
 
-Die Publikation ist Rahmen des Projektes <a href="https://demokratielabore.de">Demokratielabore</a> der <a href="https://okfn.de">Open Knowledge Foundation Deutschland</a> entstanden.
-Die Demokratielabore werden vom <a href="http://www.bmfsfj.de">Bundesministerium für Familie, Senioren, Frauen und Jugend</a> im Rahmen des Bundesprogramms <a href="http://www.demokratie-leben.de">Demokratie leben!</a> gefördert.
+Die Publikation ist Rahmen des Projektes <a href="https://demokratielabore.de">Demokratielabore</a> der <a href="https://okfn.de">Open Knowledge Foundation Deutschland</a> entstanden. 
+Die Demokratielabore werden vom <a href="http://www.bmfsfj.de">Bundesministerium für Familie, Senioren, Frauen und Jugend</a> im Rahmen des Bundesprogramms <a href="http://www.demokratie-leben.de">Demokratie leben!</a> und von der <a href="https://www.bpb.de">Bundeszentrale für politische Bildung</a> gefördert.
 <br><br>
 <b>Redaktion:</b> Sebastian Seitz, Matthias Löwe, Leonard Wolf, Lea Pfau,
 Nadine Stammen, Jasmin Helm, Saadya Windauer, Maria Reimer,
@@ -16,6 +16,10 @@ Paula Grünwald<br>
 <b>Satz:</b> Marie Wolf, Alexander Köpke<br>
 <b>Druckerei der Publikation:</b> <a href="http://www.druckerei-ruess.de/en">Druckerei Rüss</a><br>
 <br>
+<b>Kontakt</b>
+ <a href="mailto:info@demokratielabore.de">info@demokratielabore.de</a> <br>
+Telefon: +49 (0)30 577 036 660 <br>
+Singerstraße 109, 10179 Berlin <br><br>
  <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.de">CC BY-SA 4.0</a> 
  <br><br>
  
