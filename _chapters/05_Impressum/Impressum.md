@@ -4,8 +4,8 @@ type: chapter
 chapter: 5
 ---
 
-Die Publikation ist Rahmen des Projektes „Demokratielabore“ der Open Knowledge Foundation Deutschland entstanden. 
-Die Demokratielabore werden vom Bundesministerium für Familie, Senioren, Frauen und Jugend im Rahmen des Bundesprogramms Demokratie leben! gefördert.
+Die Publikation ist Rahmen des Projektes <a href="https://demokratielabore.de">Demokratielabore</a> der <a href="https://okfn.de">Open Knowledge Foundation Deutschland</a> entstanden. 
+Die Demokratielabore werden vom <a href="http://www.bmfsfj.de">Bundesministerium für Familie, Senioren, Frauen und Jugend</a> im Rahmen des Bundesprogramms <a href="http://www.demokratie-leben.de">Demokratie leben!</a> gefördert.
 <br><br>
 <b>Redaktion:</b> Helene Hahn, Jasmin Helm, Moritz Neujeffski, Knut Perseke<br>
 <b>Lektorat: </b>Andrea Baron<br>
