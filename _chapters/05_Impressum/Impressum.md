@@ -16,7 +16,14 @@ Die Demokratielabore werden vom <a href="http://www.bmfsfj.de">Bundesministerium
 <br>
  <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.de">CC BY-SA 4.0</a> 
  <br><br>
- 
-<img src="/images/logo_okf.jpg"/>
-<img src="/images/logo_bmfsjs.jpg"/>
-<img src="/images/logo_bpb.jpg"/>
+
+<p> 
+<img src="/images/logo_okf.png" style="height: 5em; margin-right: 40px"/>
+
+<img src="/images/logo_bpb.jpg" style="height: 5em"/>
+</p>
+<p>
+<img src="/images/logo_bmfsfj.jpg" style="height: 10em"/>
+</p>
+
+
