@@ -51,4 +51,10 @@ Relevanz zusprechen.
 
 ###Berufserfahrung in Jahren
 ![berufserfahrung](/images/06-berufserfahrung.svg "berufserfahrung")
+Die befragten Fachkräfte arbeiten überwiegend in freien Trägerorganisationen, darunter in
+Kinder- und Jugendfreizeiteinrichtungen, Pfadfinderorganisationen und religiösen Jugendverbänden. 
+Die meisten Organisationen sind auf der lokalen und der Landesebene aktiv. Die Befragten
+kommen vor allem aus dem mittleren Management (Programm- und Projektleitung), sind überwiegend 
+hauptamtlich tätig, zwischen 25 und 34 Jahren alt und bereits seit mehreren Jahren in der
+Jugendarbeit aktiv.
 
