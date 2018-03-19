@@ -65,7 +65,7 @@ folgende Ausstattung unbedingt:</b>
 <br><br>
 
 Alle Materialien sind unter folgendem Link online einsehbar und können jederzeit
-kostenfrei heruntergeladen werden: <a href="https://demokratielabore.de/workshops/gameofthoughts">demokratielabore.de/workshops/gameofthoughts</a>
+kostenfrei heruntergeladen werden: <a href="https://demokratielabore.de/workshops/game-of-thoughts">demokratielabore.de/workshops/game-of-thoughts</a>
 
 
 ####Ziele-Inhalte-Methoden: Der Ablaufplan im Detail

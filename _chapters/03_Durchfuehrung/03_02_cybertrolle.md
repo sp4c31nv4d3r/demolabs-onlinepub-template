@@ -56,7 +56,7 @@ folgende Ausstattung unbedingt:</b>
 <br><br>
 
 Alle Materialien sind unter folgendem Link online einsehbar und können jederzeit
-kostenfrei heruntergeladen werden: <a href="https://demokratielabore.de/workshops/invasiondercybertolle">demokratielabore.de/workshops/invasiondercybertolle</a>
+kostenfrei heruntergeladen werden: <a href="https://demokratielabore.de/workshops/invasion-der-cybertolle">demokratielabore.de/workshops/invasion-der-cybertolle</a>
 
 
 ####Ziele-Inhalte-Methoden: Der Ablaufplan im Detail
