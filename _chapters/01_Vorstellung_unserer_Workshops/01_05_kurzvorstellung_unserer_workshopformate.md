@@ -2,10 +2,10 @@
 title: "Kurzvorstellung unserer Workshopformate"
 type: section
 chapter: 1
-section: 4
+section: 5
 ---
 
-<b> Unsere Workshops wurden von ExpertInnen entwickelt, wissenschaftlich
+<b> Unsere Workshops wurden von Expert/innen entwickelt, wissenschaftlich
 evaluiert und sind konkret auf Jugendliche zugeschnitten.
 Sie bedienen fünf aktuelle Themen rund um Digitalisierung,
 Technologie und Demokratie. Jedes Format hat dabei unterschiedliche
