@@ -189,7 +189,7 @@ mehrere möglich.
 <table>
 	<tbody>
 		<td style="font-weight: bold;">Minuten</td>
-		<td>1 (pro Gruppe))</td>
+		<td>1 (pro Gruppe)</td>
 		</tr>
 		<tr>
 		<td style="font-weight: bold;">Ziel</td>
@@ -388,14 +388,11 @@ Erstellung einer Priorisierungsliste für die nächsten Aufgaben.
 		</tr>
 		<tr>
 		<td style="font-weight: bold;">Ziel</td>
-		<td>Reflexion</td>
+		<td>Priorisierung erlernen</td>
 		</tr>
 		<tr>
 		<td style="font-weight: bold;">Methode</td>
-		<td>Kurz gemeinsam auf Konsequenzen/Bewertung von Entscheidungen
-hinweisen: Gibt es andere Sichtweisen? Wie lautet
-der aktuelle Stand? Braucht jemand Hilfe, sind alle zufrieden?
-Erstellung einer Priorisierungsliste für die nächsten Aufgaben.
+		<td>Feedback einbauen, Spiel fertigstellen: Dazu gehören vor allem Details wie die Entwicklung eines Startscreens oder die Möglichkeit, nach Ende des Spiels wieder von vorne beginnen zu können.
 		</td>
 		</tr>
 		<tr>
@@ -468,7 +465,7 @@ generieren können.
 		</tr>
 		<tr>
 		<td style="font-weight: bold;">Ziel</td>
-		<td>Wertschätzung der eigenen Arbeit</td>
+		<td>Eigene Expertise kennenlernen</td>
 		</tr>
 		<tr>
 		<td style="font-weight: bold;">Methode</td>
@@ -524,7 +521,7 @@ Getränke und Gespräche sind ausdrücklich erwünscht!
 		</tr>
 		<tr>
 		<td style="font-weight: bold;">Methode</td>
-		<td>Fragen zu Spielen werden von den MentorInnen und den
+		<td>Fragen zu Spielen werden von den Mentor/innen und den
 den Spielenden bewertet, und zwar in Form einer geteilten
 Zielscheibe: Wie empfindet man die Botschaft? Realistisch,
 gut, schlecht? Will die Gruppe noch weitere Spiele konzipieren?
