@@ -47,7 +47,7 @@ folgende Ausstattung unbedingt:</b>
 
 <b>Diese Materialien werden für den Workshop gebraucht:</b>
 
-* HHandout zu Spielregeln im Detail
+* Handout zu Spielregeln im Detail
 * Spielmaterial zum Ausdrucken
 * App
 * Ninja-Regeln zum Ausdrucken
