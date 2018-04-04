@@ -214,7 +214,7 @@ Räume befreit, ist das Spiel gewonnen.
 		</tr>
 		<tr>
 		<td style="font-weight: bold;">Ziel</td>
-		<td>Spielerische Reflexion/td>
+		<td>Spielerische Reflexion</td>
 		</tr>
 		<tr>
 		<td style="font-weight: bold;">Methode</td>
