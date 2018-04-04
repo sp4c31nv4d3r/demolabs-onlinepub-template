@@ -224,7 +224,7 @@ sich alle wiedertreffen!
 		</tr>
 		<tr>
 		<td style="font-weight: bold;">Methode</td>
-		<td>• Was war hat gefallen?<br>
+		<td>• Was hat euch gefallen?<br>
 • Gab es favorisierte Storylines?<br>
 • Außerdem sollen Entscheidungsvarianten, Twists, Ausdruck
 diskutiert werden.</td>
@@ -531,6 +531,30 @@ erlaubt.</td>
 		</td>
 		<tr>
 		</tr>
+		<td style="font-weight: bold;">Material</td>
+		<td>Kein Material benötigt</td>
+		</tr>
+	</tbody>
+</table>
+<br>
+<br>
+<div style="font-weight: bold;">Optional</div>
+<p style="font-weight: bold;">Dokumentation</p>
+<table>
+	<tbody>
+		<td style="font-weight: bold;">Minuten</td>
+		<td>30</td>
+		</tr>
+		<tr>
+		<td style="font-weight: bold;">Ziel</td>
+		<td>Nachhaltigkeit</td>
+		</tr>
+		<tr>
+		<td style="font-weight: bold;">Methode</td>
+		<td>Pinnwände als Foto speichern und auf Webseite zur Diskussion stellen, Gäste einladen, die Ralley spielen
+		</td>
+		</tr>
+		<tr>
 		<td style="font-weight: bold;">Material</td>
 		<td>Kein Material benötigt</td>
 		</tr>
