@@ -8,200 +8,130 @@
 
 
 <body>
-	<header>
-		<div class="header-mobile">
-				<div id="menuToggle">
+<header>
+    <div class="header-mobile">
+        <div id="menuToggle">
 
-					<!--fake checkbox-->
-					<input type="checkbox" />
+            <!--fake checkbox-->
+            <input type="checkbox"/>
 
-					<!--hamburger nom nom-->
-					<span></span>
-					<span></span>
-					<span></span>
+            <!--hamburger nom nom-->
+            <span></span>
+            <span></span>
+            <span></span>
 
-					<!--
-					Too bad the menu has to be inside of the button
-					but hey, it's pure CSS magic.
-					-->
-					<!--<ul id="menu">-->
-					<!--<a href="#"><li>Home</li></a>-->
-					<!--<a href="#"><li>About</li></a>-->
-					<!--<a href="#"><li>Info</li></a>-->
-					<!--<a href="#"><li>Contact</li></a>-->
-					<!--<a href="https://erikterwan.com/" target="_blank"><li>Show me more</li></a>-->
-					<!--</ul>-->
-					<ul id="menu">
-						<p class="icons">
-							<a href="/doc/DL_Handbuch.pdf" title="Download PDF" target="_blank">
-								<i class="fa fa-download"></i>
-							</a>
-							<a href="https://github.com/okfde/demolabs-onlinepub-template/tree/handbuch" title="Project on github" target="_blank">
-								<i class="fa fa-github"></i>
-							</a>
-						</p>
-						{% assign chapters = site.chapters | where: "type", "chapter" | sort: "chapter" %}
-						{% for chapter in chapters %}
-						<li>
-							<p class="toc-chapter"><a href="#{{chapter.chapter}}-{{chapter.title}}">{{chapter.chapter}} {{chapter.title}}</a></p>
-							{% assign sections = site.chapters | where: "type", "section" | where: "chapter", chapter.chapter | sort: "section" %}
-							<ul class="toc-section-list">
-								{% for section in sections%}
-								<li>
-									<p><a href="#{{chapter.chapter}}-{{section.section}}-{{section.title}}">{{chapter.chapter}}.{{section.section}} {{section.title}}</a></p>
-									{% assign subsections = site.chapters | where: "type", "subsection" | where: "chapter", chapter.chapter | where: "section", section.section | sort: "subsection" %}
-									<ul class="toc-subsection-list">
-										{% for subsection in subsections %}
-										<li><a href="#{{chapter.chapter}}-{{section.section}}-{{subsection.subsection}}-{{subsection.title}}">{{chapter.chapter}}.{{section.section}}.{{subsection.subsection}} {{subsection.title}}</li>
-										{% endfor %}
-									</ul>
-								</li>
-								{% endfor %}
-							</ul>
-						</li>
-						{% endfor %}
-					</ul>
-				</div>
-			<!--<nav class="nav" role="navigation">-->
-				<!--<ul class="nav__list">-->
-					<!--<li>-->
-						<!--<input id="group-1" type="checkbox" hidden />-->
-						<!--<label for="group-1"><span class="fa fa-angle-right"></span> First level</label>-->
-						<!--<ul class="group-list">-->
-							<!--<li><a href="#">1st level item</a></li>-->
-							<!--<li>-->
-								<!--<input id="sub-group-1" type="checkbox" hidden />-->
-								<!--<label for="sub-group-1"><span class="fa fa-angle-right"></span> Second level</label>-->
-								<!--<ul class="sub-group-list">-->
-									<!--<li><a href="#">2nd level nav item</a></li>-->
-									<!--<li><a href="#">2nd level nav item</a></li>-->
-									<!--<li><a href="#">2nd level nav item</a></li>-->
-									<!--<li>-->
-										<!--<input id="sub-sub-group-1" type="checkbox" hidden />-->
-										<!--<label for="sub-sub-group-1"><span class="fa fa-angle-right"></span> Third level</label>-->
-										<!--<ul class="sub-sub-group-list">-->
-											<!--<li><a href="#">3rd level nav item</a></li>-->
-											<!--<li><a href="#">3rd level nav item</a></li>-->
-											<!--<li><a href="#">3rd level nav item</a></li>-->
-										<!--</ul>-->
-									<!--</li>-->
-								<!--</ul>-->
-							<!--</li>-->
-						<!--</ul>-->
-					<!--</li>-->
-					<!--<li>-->
-						<!--<input id="group-2" type="checkbox" hidden />-->
-						<!--<label for="group-2"><span class="fa fa-angle-right"></span> First level</label>-->
-						<!--<ul class="group-list">-->
-							<!--<li>-->
-							<!--<li><a href="#">1st level item</a></li>-->
-							<!--<li><a href="#">1st level item</a></li>-->
-							<!--<input id="sub-group-2" type="checkbox" hidden />-->
-							<!--<label for="sub-group-2"><span class="fa fa-angle-right"></span> Second level</label>-->
-							<!--<ul class="sub-group-list">-->
-								<!--<li><a href="#">2nd level nav item</a></li>-->
-								<!--<li><a href="#">2nd level nav item</a></li>-->
-								<!--<li>-->
-									<!--<input id="sub-sub-group-2" type="checkbox" hidden />-->
-									<!--<label for="sub-sub-group-2"><span class="fa fa-angle-right"></span> Third level</label>-->
-									<!--<ul class="sub-sub-group-list">-->
-										<!--<li><a href="#">3rd level nav item</a></li>-->
-									<!--</ul>-->
-								<!--</li>-->
-							<!--</ul>-->
-							<!--</li>-->
-						<!--</ul>-->
-					<!--</li>-->
-					<!--<li>-->
-						<!--<input id="group-3" type="checkbox" hidden />-->
-						<!--<label for="group-3"><span class="fa fa-angle-right"></span> First level</label>-->
-						<!--<ul class="group-list">-->
-							<!--<li>-->
-							<!--<li><a href="#">1st level item</a></li>-->
-							<!--<li><a href="#">1st level item</a></li>-->
-							<!--<input id="sub-group-3" type="checkbox" hidden />-->
-							<!--<label for="sub-group-3"><span class="fa fa-plus"></span> Second level</label>-->
-							<!--<ul class="sub-group-list">-->
-								<!--<li><a href="#">2nd level nav item</a></li>-->
-								<!--<li><a href="#">2nd level nav item</a></li>-->
-								<!--<li><a href="#">2nd level nav item</a></li>-->
-								<!--<li>-->
-									<!--<input id="sub-sub-group-3" type="checkbox" hidden />-->
-									<!--<label for="sub-sub-group-3"><span class="fa fa-plus"></span> Third level</label>-->
-									<!--<ul class="sub-sub-group-list">-->
-										<!--<li><a href="#">3rd level nav item</a></li>-->
-										<!--<li><a href="#">3rd level nav item</a></li>-->
-										<!--<li><a href="#">3rd level nav item</a></li>-->
-									<!--</ul>-->
-								<!--</li>-->
-							<!--</ul>-->
-							<!--</li>-->
-						<!--</ul>-->
-					<!--</li>-->
-					<!--<li>-->
-						<!--<input id="group-4" type="checkbox" hidden />-->
-						<!--<label for="group-4"><span class="fa fa-angle-plus"></span> First level</label>-->
-						<!--<ul class="group-list">-->
-							<!--<li>-->
-							<!--<li><a href="#">1st level item</a></li>-->
-							<!--<input id="sub-group-4" type="checkbox" hidden />-->
-							<!--<label for="sub-group-4"><span class="fa fa-plus"></span> Second level</label>-->
-							<!--<ul class="sub-group-list">-->
-								<!--<li><a href="#">2nd level nav item</a></li>-->
-								<!--<li><a href="#">2nd level nav item</a></li>-->
-							<!--</ul>-->
-							<!--</li>-->
-						<!--</ul>-->
-					<!--</li>-->
-				<!--</ul>-->
-			<!--</nav>-->
-		</div>
-		<div class="header">
-			<div class="header-picture">
-				<!--<img src="/images/group-2@3x.png" alt="">-->
-				<div class="header-text">
-					<h1>Workshops für Jugendliche</h1>
-				</div>
-			</div>
+            <!--
+            Too bad the menu has to be inside of the button
+            but hey, it's pure CSS magic.
+            -->
+            <!--<ul id="menu">-->
+            <!--<a href="#"><li>Home</li></a>-->
+            <!--<a href="#"><li>About</li></a>-->
+            <!--<a href="#"><li>Info</li></a>-->
+            <!--<a href="#"><li>Contact</li></a>-->
+            <!--<a href="https://erikterwan.com/" target="_blank"><li>Show me more</li></a>-->
+            <!--</ul>-->
+            <ul id="menu">
+                <p class="icons">
+                    <a href="/doc/DL_Handbuch.pdf" title="Download PDF" target="_blank">
+                        <i class="fa fa-download"></i>
+                    </a>
+                    <a href="https://github.com/okfde/demolabs-onlinepub-template/tree/handbuch"
+                       title="Project on github" target="_blank">
+                        <i class="fa fa-github"></i>
+                    </a>
+                </p>
+                {% assign chapters = site.chapters | where: "type", "chapter" | sort: "chapter" %}
+                {% for chapter in chapters %}
+                <li>
+                    <p class="toc-chapter"><a href="#{{chapter.chapter}}-{{chapter.title}}">{{chapter.chapter}}
+                        {{chapter.title}}</a></p>
+                    {% assign sections = site.chapters | where: "type", "section" | where: "chapter", chapter.chapter |
+                    sort: "section" %}
+                    <ul class="toc-section-list">
+                        {% for section in sections%}
+                        <li>
+                            <p><a href="#{{chapter.chapter}}-{{section.section}}-{{section.title}}">{{chapter.chapter}}.{{section.section}}
+                                {{section.title}}</a></p>
+                            {% assign subsections = site.chapters | where: "type", "subsection" | where: "chapter",
+                            chapter.chapter | where: "section", section.section | sort: "subsection" %}
+                            <ul class="toc-subsection-list">
+                                {% for subsection in subsections %}
+                                <li>
+                                    <a href="#{{chapter.chapter}}-{{section.section}}-{{subsection.subsection}}-{{subsection.title}}">{{chapter.chapter}}.{{section.section}}.{{subsection.subsection}}
+                                        {{subsection.title}}</li>
+                                {% endfor %}
+                            </ul>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
 
-		</div>
-	</header>
-		{{ content }}
+    </div>
+    <div class="header">
+        <div class="header-picture">
+            <!--<img src="/images/group-2@3x.png" alt="">-->
+            <div class="header-text">
+                <h1>Workshops für Jugendliche</h1>
+            </div>
+        </div>
 
-	<script>
-        // When the user scrolls the page, execute myFunction
-        window.onscroll = function() {addSticky()};
+    </div>
+</header>
+{{ content }}
+<footer>
+    <div class="main-content">
+        bedarfsanalyse.demokratielabore.de nutzt statt den üblichen externen Dienstleistern die datenschutzfreundlichere
+        Technologie von <a href="https://matomo.org">Matomo</a>, um statistische Auswertungen der Seitennutzung zu
+        erhalten. Wenn sie dies nicht wollen, <a
+            href="https://traffic.okfn.de/index.php?module=CoreAdminHome&amp;action=optOut&amp;language=de">klicken Sie
+        bitte hier und entfernen Sie den Haken</a>. Näheres in <a
+            href="https://okfn.de/impressum/#datenschutzerklaerung">unserer Datenschutzerklärung</a>.
+    </div>
+</footer>
+<script>
+    // When the user scrolls the page, execute myFunction
+    window.onscroll = function () {
+        addSticky()
+    };
 
-        // Get the navbar
-        var navbar = document.getElementById("toc");
+    // Get the navbar
+    var navbar = document.getElementById("toc");
 
-        // Get the offset position of the navbar
-        var sticky = navbar.offsetTop;
-        console.log(sticky);
+    // Get the offset position of the navbar
+    var sticky = navbar.offsetTop;
+    console.log(sticky);
 
-        // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
-        function addSticky() {
-            if (window.pageYOffset >= sticky) {
-                navbar.classList.add("sticky")
-            } else {
-                navbar.classList.remove("sticky");
-            }
+    // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+    function addSticky() {
+        if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+        } else {
+            navbar.classList.remove("sticky");
         }
-	</script>
-	<!-- Matomo -->
-	<script type="text/javascript">
-        var _paq = _paq || [];
-        /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-        _paq.push(['trackPageView']);
-        _paq.push(['enableLinkTracking']);
-        (function() {
-            var u="//traffic.okfn.de/";
-            _paq.push(['setTrackerUrl', u+'piwik.php']);
-            _paq.push(['setSiteId', '43']);
-            var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-            g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
-        })();
-	</script>
-	<!-- End Matomo Code -->
+    }
+</script>
+<!-- Matomo -->
+<script type="text/javascript">
+    var _paq = _paq || [];
+    /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function () {
+        var u = "//traffic.okfn.de/";
+        _paq.push(['setTrackerUrl', u + 'piwik.php']);
+        _paq.push(['setSiteId', '43']);
+        var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
+        g.type = 'text/javascript';
+        g.async = true;
+        g.defer = true;
+        g.src = u + 'piwik.js';
+        s.parentNode.insertBefore(g, s);
+    })();
+</script>
+<!-- End Matomo Code -->
 </body>
 </html>
