@@ -22,4 +22,4 @@ Kontakte vermitteln. Bis Ende 2018 wollen wir außerdem ein
 deutschlandweites Netzwerk von Digital-AGs aufbauen, in denen
 ihr euch dann mit anderen Fachkräften in der Jugendarbeit
 austauschen könnt. Interesse? Dann meldet euch gerne bei uns:
-info@demokratielabore.de
+[info@demokratielabore.de](mailto:info@demokratielabore.de)!

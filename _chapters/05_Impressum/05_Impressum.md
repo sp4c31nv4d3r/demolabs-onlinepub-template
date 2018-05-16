@@ -20,7 +20,7 @@ Paula Grünwald<br>
  <a href="mailto:info@demokratielabore.de">info@demokratielabore.de</a> <br>
 Telefon: +49 (0)30 577 036 660 <br>
 Singerstraße 109, 10179 Berlin <br><br>
- <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.de">CC BY-SA 4.0</a> 
+ <a href="https://creativecommons.org/licenses/by/4.0/deed.de">CC BY 4.0</a> 
  <br><br>
  
 <p>

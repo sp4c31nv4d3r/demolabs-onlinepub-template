@@ -5,7 +5,7 @@ chapter: 0
 section: 2
 ---
 
-Dieses Handbuch richtet sich an PädagogInnen, MitarbeiterInnen aus
+Dieses Handbuch richtet sich an Pädagog/innen, Mitarbeiter/innen aus
 Jugendeinrichtungen und an Fachkräfte der (politischen) Bildung sowie
 der Jugend(verbands)arbeit und soll dazu befähigen, unsere Workshopformate
 eigenständig durchzuführen. Wir liefern eine detaillierte Anleitung

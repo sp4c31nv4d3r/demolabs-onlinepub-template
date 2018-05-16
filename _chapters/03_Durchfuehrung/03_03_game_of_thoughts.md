@@ -184,41 +184,12 @@ mehrere möglich.
 	</tbody>
 </table>
 <br>
-<div style="color:#0000ff; font-weight: bold;">Schritt 02.1 / 10</div>
-<p style="color:#0000ff; font-weight: bold;">Ideen erarbeiten</p>
-<table>
-	<tbody>
-		<td style="font-weight: bold;">Minuten</td>
-		<td>30 (5 Min. allein, 15 Min. in Gruppen, 10 Min. für Poster)</td>
-		</tr>
-		<tr>
-		<td style="font-weight: bold;">Ziel</td>
-		<td>Horizont erweitern, Gruppenbildung und Reflexion</td>
-		</tr>
-		<tr>
-		<td style="font-weight: bold;">Methode</td>
-		<td>Die Teilnehmenden überlegen sich zunächst jeweils eine eigene
-Idee, die anschließend einer von mehreren Kleingruppen vorgestellt
-wird. Die Gruppen überlegen gemeinsam und stellen je eine
-gemeinsam entwickelte Idee auf Postern dar, die gut verteilt an
-den Wänden des Raumes angebracht werden. Eine Gruppe sollte
-im besten Fall eine Idee erarbeiten, bei keiner Einigung sind auch
-mehrere möglich.
-		</td>
-		</tr>
-		<tr>
-		<td style="font-weight: bold;">Material</td>
-		<td>A2 Blätter, Stifte, Tesa</td>
-		</tr>
-	</tbody>
-</table>
-<br>
 <div style="color:#0000ff; font-weight: bold;">Schritt 02.2 / 10</div>
 <p style="color:#0000ff; font-weight: bold;">Ideenpräsentation</p>
 <table>
 	<tbody>
 		<td style="font-weight: bold;">Minuten</td>
-		<td>1 (pro Gruppe))</td>
+		<td>1 (pro Gruppe)</td>
 		</tr>
 		<tr>
 		<td style="font-weight: bold;">Ziel</td>
@@ -417,14 +388,11 @@ Erstellung einer Priorisierungsliste für die nächsten Aufgaben.
 		</tr>
 		<tr>
 		<td style="font-weight: bold;">Ziel</td>
-		<td>Reflexion</td>
+		<td>Priorisierung erlernen</td>
 		</tr>
 		<tr>
 		<td style="font-weight: bold;">Methode</td>
-		<td>Kurz gemeinsam auf Konsequenzen/Bewertung von Entscheidungen
-hinweisen: Gibt es andere Sichtweisen? Wie lautet
-der aktuelle Stand? Braucht jemand Hilfe, sind alle zufrieden?
-Erstellung einer Priorisierungsliste für die nächsten Aufgaben.
+		<td>Feedback einbauen, Spiel fertigstellen: Dazu gehören vor allem Details wie die Entwicklung eines Startscreens oder die Möglichkeit, nach Ende des Spiels wieder von vorne beginnen zu können.
 		</td>
 		</tr>
 		<tr>
@@ -497,7 +465,7 @@ generieren können.
 		</tr>
 		<tr>
 		<td style="font-weight: bold;">Ziel</td>
-		<td>Wertschätzung der eigenen Arbeit</td>
+		<td>Eigene Expertise kennenlernen</td>
 		</tr>
 		<tr>
 		<td style="font-weight: bold;">Methode</td>
@@ -553,7 +521,7 @@ Getränke und Gespräche sind ausdrücklich erwünscht!
 		</tr>
 		<tr>
 		<td style="font-weight: bold;">Methode</td>
-		<td>Fragen zu Spielen werden von den MentorInnen und den
+		<td>Fragen zu Spielen werden von den Mentor/innen und den
 den Spielenden bewertet, und zwar in Form einer geteilten
 Zielscheibe: Wie empfindet man die Botschaft? Realistisch,
 gut, schlecht? Will die Gruppe noch weitere Spiele konzipieren?

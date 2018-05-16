@@ -47,7 +47,7 @@ folgende Ausstattung unbedingt:</b>
 
 <b>Diese Materialien werden für den Workshop gebraucht:</b>
 
-* HHandout zu Spielregeln im Detail
+* Handout zu Spielregeln im Detail
 * Spielmaterial zum Ausdrucken
 * App
 * Ninja-Regeln zum Ausdrucken
@@ -56,7 +56,7 @@ folgende Ausstattung unbedingt:</b>
 <br><br>
 
 Alle Materialien sind unter folgendem Link online einsehbar und können jederzeit
-kostenfrei heruntergeladen werden: <a href="https://demokratielabore.de/workshops/invasion-der-cybertolle">demokratielabore.de/workshops/invasion-der-cybertolle</a>
+kostenfrei heruntergeladen werden: <a href="https://demokratielabore.de/workshops/invasion-der-cybertrolle">demokratielabore.de/workshops/invasion-der-cybertrolle</a>
 
 
 ####Ziele-Inhalte-Methoden: Der Ablaufplan im Detail
@@ -214,7 +214,7 @@ Räume befreit, ist das Spiel gewonnen.
 		</tr>
 		<tr>
 		<td style="font-weight: bold;">Ziel</td>
-		<td>Spielerische Reflexion/td>
+		<td>Spielerische Reflexion</td>
 		</tr>
 		<tr>
 		<td style="font-weight: bold;">Methode</td>
