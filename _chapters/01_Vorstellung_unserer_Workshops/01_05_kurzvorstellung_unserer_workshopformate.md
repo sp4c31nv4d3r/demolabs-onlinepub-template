@@ -318,3 +318,127 @@ Aussagen und werden sowohl räumlich als auch
 inhaltlich von populistischen Eindrücken umgeben. Diese als
 solche zu erkennen und Handlungsstrategien zu entwerfen ist
 das Ziel des Spieles.
+
+
+####Data Dancing
+Entwirf eine eigene App, die dich mit Freunden vernetzt! Wieviele 
+Informationen möchtest du freigeben, um die Daten anderer zu sehen? Was 
+wünschst du dir von einem digitalen Treffpunkt und kann dieser problemlos 
+von allen genutzt werden? In diesem Workshop lernst du, wie man mit Papier, 
+Stiften und Tablets interaktive Prototypen erstellt, welche Rolle Anonymität 
+und Überwachung spielt und warum Schubladen-Denken nervt.
+(Ausführlicher Ablauf in Kapitel 3.5)
+
+
+<table>
+  <tbody>
+      <td style="font-weight: bold;">Themen</td>
+      <td>Diversität, Datenschutz</td>
+    </tr>
+    <tr>
+      <td style="font-weight: bold;">Dauer:</td>
+      <td>2-8 Stunden</td>
+    </tr>
+   <tr>
+      <td style="font-weight: bold;">Ziele:</td>
+      <td>Reflexion digitaler zwischenmenschlicher Kommunikation, Hinterfragen bestehender Apps und ihrer Datennutzung, Meinungsbildung zu Datenausnutzung und Anonymität,Grundverständnis von App-Design und der damit verbundenen Wirkung auf soziale Verbindungen, Pluralismus als Prinzip in Entwicklungsprozessen</td>
+    </tr>
+    <tr>
+      <td style="font-weight: bold;">Voraussetzungen &amp; Vorkenntnisse:</td>
+      <td>Teilnehmende: keine <br> Pädagogische Fachkräfte: keine</td>
+    </tr>
+    <tr>
+      <td style="font-weight: bold;">Zielgruppe:</td>
+      <td>Junge Menschen im Alter von 14 - 21 Jahren</td>
+    </tr>
+   <tr>
+      <td style="font-weight: bold;">Anzahl TeilnehmerInnen (min/max):</td>
+      <td>6-30 Jugendliche</td>
+    </tr>
+  </tbody>
+</table>
+
+####Hintergrund des Workshops
+Soziale Netzwerke sind aus eine alltägliche Kommunikationsebene Jugendlicher. Sie nutzen digitale Platformen um sich mit Freunden oder anderen Gruppen (Schule, Hobby, Arbeit) beständig auszutauschen. Dabei sind sie wohl öffentlich einsehbare als auch private Orte - für mehrere oder auch nur zwei Personen. Ebenfalls werden sie auch genutzt um Freunde zu gewinnen - Entweder weil man sie in einem realen Kontext kennenlernte oder über Platformen, auf denen man sich zu einem Thema austauschen kann. Gerade in diesem Kontext spielt der Grad an Medienkompetenz eine tragende Rolle: Das digitale Freunde-Finden basiert auf dem gegenseitigem Vertrauen, dass Daten, die man über sich eingestellt hat der Wahrheit entsprechen. Gleichzeitig ist davon abzuraten all seine Daten für Unbekannte öffentlich zu machen. Nicht immer ist die Person gegenüber die, die sie zu sein scheint. Und auch die Platformen selbst können persönliche Daten für verschiedenste Zwecke missbrauchen. Diese Balance ist ein Kern des Workshops, indem die Teilnehmenden ihre eigene App gestalten können. Eine, in der sie Features einbauen, die sie sich schon immer wünschten oder eine ganz neue Art der Kommunikation ermöglicht. Die Disko steht hierbei als Methapher für einen solchen Ort, an dem man sich zu einem Hobby trifft, schnell kommunizieren und leicht Freundschaften schließen kann.
+Über Papier-Zeichnungen und einem Programm, welches die Zeichnungen abfotografieren und anschließend interaktiv verknüpfen lässt, lassen sich Ideen für ihre eigenen soziale Netzwerke leicht umsetzen - ganz ohne Einschränkungen technischer Barrieren der App-Programmierung. Die Teilnehmenden werden dabei schnell mit vielen Detail-Fragen in der Umsetzung konfrontiert. Welche Daten fragt man ab? Auf welcher Basis werden Freundschaften geschlossen - im Realen und im Digitalen? Wie geht man mit unterschiedlichen Sprachen und Herkünften um? Wie verhindert man Mobbing? Schnell wird dabei meist klar, dass viele Apps mit einer bestimmten Zielgruppe im Kopf entwickelt werden und welche Rolle Diversität schon in der Umsetzung spielt. Neben den Themen Datenschutz und Diversität lernen die Teilnehmenden darüber hinaus auch das schnelle Verwirklichen von App-Konzepten, mit denen sie ihre Vorstellungen ausdrücken oder sogar Unterstüztende für eine reale Umsetzeng gewinnen können.
+
+
+####Minetest Hero Theatre
+Erfinde in der Open-Source Version von Minecraft eine ungerechte Welt und 
+spiele auf der digitalen Bühne Heldenfiguren, welche die Ungerechtigkeit 
+besiegen! In diesem Workshop lernst du, wie man aussagekräftige 
+Geschichten erzählt und umsetzt, Figuren und Welten baut, Animationsfilme 
+aus Spielen produziert und welche Superkräfte in dir selbst schlummern.
+(Ausführlicher Ablauf in Kapitel 3.5)
+
+
+<table>
+  <tbody>
+      <td style="font-weight: bold;">Themen</td>
+      <td>Ungerechtigkeit</td>
+    </tr>
+    <tr>
+      <td style="font-weight: bold;">Dauer:</td>
+      <td>2-8 Stunden</td>
+    </tr>
+   <tr>
+      <td style="font-weight: bold;">Ziele:</td>
+      <td>Reflektion ungerechter Situationen, Finden von Konfliktlösungsstrategien im Team, gesteigertes Interesse & Fähigkeit zur Meinungsbildung und Meinungsäußerung, Umdenken zur (Aus-)Nutzung interaktiver Medien, Fähigkeiten in Storytelling und Impro-Theater</td>
+    </tr>
+    <tr>
+      <td style="font-weight: bold;">Voraussetzungen &amp; Vorkenntnisse:</td>
+      <td>Teilnehmende: Hand-/Auge-Koordination für Spiele in Egoperspektive an Tastatur und Maus <br> Pädagogische Fachkräfte: keine</td>
+    </tr>
+    <tr>
+      <td style="font-weight: bold;">Zielgruppe:</td>
+      <td>Junge Menschen im Alter von 12 - 21 Jahren</td>
+    </tr>
+   <tr>
+      <td style="font-weight: bold;">Anzahl TeilnehmerInnen (min/max):</td>
+      <td>4-12 Jugendliche (4 pro Gruppe)</td>
+    </tr>
+  </tbody>
+</table>
+
+####Hintergrund des Workshops
+Komplexe oder nicht ganz greifbare Situationen hinterlassen oft ein Gefühl der Ohnmächtigkeit. Etwas läuft nicht gut in der Welt und gerade Jugendliche besitzen ein sehr gutes Gespür für Ungerechtigkeiten. In fiktionalen Welten lassen sich diese konkret abbilden: Hier können Heldenfiguren gegen Verkörperungen einer Ungerechtigkeit wirken. Doch wie? Welche Handlungen führen sie aus, welche Kräfte und Hilfsmittel nutzen sie dazu? Lassen sich Teile davon in die Realität zurückübertragen? In Minetest wird das Nachdenken zu Ungerechtigkeiten zum Spiel: Schnell ist eine Welt gebaut, Figuren und eine Geschichte angelegt. Ihre Ideen finden direkt eine Form in ihrer Kreativität. Da in Gruppen gearbeitet wird, fallen so mehrere Probleme, Wünsche und vor allem Lösungsansätze zusammen, die innerhalb eines Improvisations-Theaters erprobt werden können. Besonders das Aufführen ihrer Show ermöglicht noch weitere Perspektiven auf die dargestellten Themen, da das Publikum ihre eigenen Gedanken auf das Dargetellte projezieren. Neben dieser inhaltlichen Auseinandersetzung erlernen die Teilnehmenden darüber hinaus, wie sie ein bestehendes Medium für andere Zwecke ausnutzen können: Statt zu konsumieren und das Spiel zu spielen, nutzen sie die Welt um in ihr eigene Ideen abzubilden und sie Menschen in Form einer Aufführung, Bildern und Videos zugänglich zu machen. 
+
+
+####instAR.lab
+Wolltest du schon immer mal auf Instagram berühmt werden? Mit welchen 
+Tricks Influencer im Internet ihre Meinung verbreiten, wie du diese selbst 
+verwenden kannst und wie dir Augmented Reality dabei helfen kann, lernst 
+du in diesem Workshop.
+(Ausführlicher Ablauf in Kapitel 3.5)
+
+
+<table>
+  <tbody>
+      <td style="font-weight: bold;">Themen</td>
+      <td>Influencer</td>
+    </tr>
+    <tr>
+      <td style="font-weight: bold;">Dauer:</td>
+      <td>3-6 Stunden</td>
+    </tr>
+   <tr>
+      <td style="font-weight: bold;">Ziele:</td>
+      <td>Reflektion von Werbung im öffentlichen Raum und in sozialen Medien, Hinterfragen von Motiven werbetreibender Personen, Auseinandersetzung mit Möglichkeiten von Augmented Reality zur Visualisierung eigener Vorschläge</td>
+    </tr>
+    <tr>
+      <td style="font-weight: bold;">Voraussetzungen &amp; Vorkenntnisse:</td>
+      <td>Teilnehmende: Hand-/Auge-Koordination für Spiele in Egoperspektive an Tastatur und Maus <br> Pädagogische Fachkräfte: keine</td>
+    </tr>
+    <tr>
+      <td style="font-weight: bold;">Zielgruppe:</td>
+      <td>Junge Menschen im Alter von 12 - 21 Jahren</td>
+    </tr>
+   <tr>
+      <td style="font-weight: bold;">Anzahl TeilnehmerInnen (min/max):</td>
+      <td>4-12 Jugendliche (4 pro Gruppe)</td>
+    </tr>
+  </tbody>
+</table>
+
+####Hintergrund des Workshops
+Auf Instagram geht es zu großen Teilen um Selbstdarstellung. Wenig ist zum Teilen ausgelegt, jeder soll eigene Inhalte hochladen und mit Likes und Followern ein Publikum aufbauen. Gerade Nutzende, denen viele folgen, lassen so schnell vielen Menschen ihre Meinung, Interessen und auch Werbung zukommen. Gerade Werbung ist als solche aber oft schwer zu erkennen. Muss man sie als solche kennzeichnen, auch wenn man kein Geld von Sponsoren erhält? Was ist, wenn man einfach nur immer seine Lieblingsmarke an hat? Es wirkt alles sehr persönlich, aber was, wenn es das nicht ist? Im Workshop lernen die Teilnehmenden die Tricks der Influencer, Punkte auf die es zu achten gilt und vor allem wie sie mit dem Wissen selbst aktiv werden und sich Petitions-artig für ihre Vorstellungen einsetzen können. Da Instagram ein visuelles Medium ist, werden ihre Vorstellungen mit Hilfe von Augmented Reality abgebildet: Objekt bauen, in der Realität fotografieren und so aufarbeiten, dass möglichst viele Menschen darauf aufmerksam werden!
